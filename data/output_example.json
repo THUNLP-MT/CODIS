@@ -1,0 +1,2473 @@
+[
+    {
+        "id": "000",
+        "output": {
+            "output_1": "Putting on my clothes.",
+            "output_2": "Taking off my clothes."
+        }
+    },
+    {
+        "id": "001",
+        "output": {
+            "output_1": "Opening your bag.",
+            "output_2": "Closing your bag."
+        }
+    },
+    {
+        "id": "002",
+        "output": {
+            "output_1": "Opening the door.",
+            "output_2": "Closing the door."
+        }
+    },
+    {
+        "id": "003",
+        "output": {
+            "output_1": "Darker.",
+            "output_2": "Brighter."
+        }
+    },
+    {
+        "id": "004",
+        "output": {
+            "output_1": "The previous page.",
+            "output_2": "The next page."
+        }
+    },
+    {
+        "id": "005",
+        "output": {
+            "output_1": "The next page.",
+            "output_2": "The previous page."
+        }
+    },
+    {
+        "id": "006",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "007",
+        "output": {
+            "output_1": "Clockwise.",
+            "output_2": "Counterclockwise."
+        }
+    },
+    {
+        "id": "008",
+        "output": {
+            "output_1": "Clockwise.",
+            "output_2": "Counterclockwise."
+        }
+    },
+    {
+        "id": "009",
+        "output": {
+            "output_1": "Downwards.",
+            "output_2": "Upwards."
+        }
+    },
+    {
+        "id": "010",
+        "output": {
+            "output_1": "Down.",
+            "output_2": "Up."
+        }
+    },
+    {
+        "id": "011",
+        "output": {
+            "output_1": "Softer.",
+            "output_2": "Louder."
+        }
+    },
+    {
+        "id": "012",
+        "output": {
+            "output_1": "Counterclockwise.",
+            "output_2": "Clockwise."
+        }
+    },
+    {
+        "id": "013",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "014",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "015",
+        "output": {
+            "output_1": "At the front.",
+            "output_2": "At the back."
+        }
+    },
+    {
+        "id": "016",
+        "output": {
+            "output_1": "Arriving the platform.",
+            "output_2": "Leaving the platform."
+        }
+    },
+    {
+        "id": "017",
+        "output": {
+            "output_1": "Arriving the platform.",
+            "output_2": "Leaving the platform."
+        }
+    },
+    {
+        "id": "018",
+        "output": {
+            "output_1": "North.",
+            "output_2": "South."
+        }
+    },
+    {
+        "id": "019",
+        "output": {
+            "output_1": "Eastwards.",
+            "output_2": "Westwards."
+        }
+    },
+    {
+        "id": "020",
+        "output": {
+            "output_1": "North-south direction.",
+            "output_2": "East-west direction."
+        }
+    },
+    {
+        "id": "021",
+        "output": {
+            "output_1": "Westwards.",
+            "output_2": "Eastwards."
+        }
+    },
+    {
+        "id": "022",
+        "output": {
+            "output_1": "Left track.",
+            "output_2": "Right track."
+        }
+    },
+    {
+        "id": "023",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "024",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "025",
+        "output": {
+            "output_1": "In the front.",
+            "output_2": "In the back."
+        }
+    },
+    {
+        "id": "026",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "027",
+        "output": {
+            "output_1": "Moving towards the photographer.",
+            "output_2": "Moving away from the photographer."
+        }
+    },
+    {
+        "id": "028",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "029",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "030",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "031",
+        "output": {
+            "output_1": "North.",
+            "output_2": "South."
+        }
+    },
+    {
+        "id": "032",
+        "output": {
+            "output_1": "Uphills.",
+            "output_2": "Downhills."
+        }
+    },
+    {
+        "id": "033",
+        "output": {
+            "output_1": "Going back.",
+            "output_2": "Going out."
+        }
+    },
+    {
+        "id": "034",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "035",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "036",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "037",
+        "output": {
+            "output_1": "In the afternoon.",
+            "output_2": "In the morning."
+        }
+    },
+    {
+        "id": "038",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "039",
+        "output": {
+            "output_1": "In the morning.",
+            "output_2": "In the afternoon."
+        }
+    },
+    {
+        "id": "040",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "041",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "042",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "043",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "044",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "045",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "046",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "047",
+        "output": {
+            "output_1": "North.",
+            "output_2": "South."
+        }
+    },
+    {
+        "id": "048",
+        "output": {
+            "output_1": "In the morning.",
+            "output_2": "In the afternoon."
+        }
+    },
+    {
+        "id": "049",
+        "output": {
+            "output_1": "In the morning.",
+            "output_2": "In the afternoon."
+        }
+    },
+    {
+        "id": "050",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "051",
+        "output": {
+            "output_1": "Contracting.",
+            "output_2": "Extending."
+        }
+    },
+    {
+        "id": "052",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "053",
+        "output": {
+            "output_1": "She has thrown the frisbee.",
+            "output_2": "She is going to catch the frisbee."
+        }
+    },
+    {
+        "id": "054",
+        "output": {
+            "output_1": "The athlete has just passed the ball.",
+            "output_2": "The athlete is about to catch the ball."
+        }
+    },
+    {
+        "id": "055",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "056",
+        "output": {
+            "output_1": "First half.",
+            "output_2": "Second half."
+        }
+    },
+    {
+        "id": "057",
+        "output": {
+            "output_1": "Winter.",
+            "output_2": "Summer."
+        }
+    },
+    {
+        "id": "058",
+        "output": {
+            "output_1": "Summer vacation.",
+            "output_2": "Winter vacation."
+        }
+    },
+    {
+        "id": "059",
+        "output": {
+            "output_1": "Winter vacation.",
+            "output_2": "Summer vacation."
+        }
+    },
+    {
+        "id": "060",
+        "output": {
+            "output_1": "The blue one.",
+            "output_2": "The red one."
+        }
+    },
+    {
+        "id": "061",
+        "output": {
+            "output_1": "The blue one.",
+            "output_2": "The red one."
+        }
+    },
+    {
+        "id": "062",
+        "output": {
+            "output_1": "Being put into the truck.",
+            "output_2": "Being taken off the truck."
+        }
+    },
+    {
+        "id": "063",
+        "output": {
+            "output_1": "Out of the car.",
+            "output_2": "In the car."
+        }
+    },
+    {
+        "id": "064",
+        "output": {
+            "output_1": "Being put on the shelf.",
+            "output_2": "Being taken off the shelf."
+        }
+    },
+    {
+        "id": "065",
+        "output": {
+            "output_1": "Opening.",
+            "output_2": "Closing."
+        }
+    },
+    {
+        "id": "066",
+        "output": {
+            "output_1": "Clockwise.",
+            "output_2": "Counterclockwise."
+        }
+    },
+    {
+        "id": "067",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "068",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "069",
+        "output": {
+            "output_1": "Upwards.",
+            "output_2": "Downwards."
+        }
+    },
+    {
+        "id": "070",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "071",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "072",
+        "output": {
+            "output_1": "up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "073",
+        "output": {
+            "output_1": "Towards me.",
+            "output_2": "Away from me."
+        }
+    },
+    {
+        "id": "074",
+        "output": {
+            "output_1": "Approach.",
+            "output_2": "Away from you."
+        }
+    },
+    {
+        "id": "075",
+        "output": {
+            "output_1": "Morning.",
+            "output_2": "Afternoon."
+        }
+    },
+    {
+        "id": "076",
+        "output": {
+            "output_1": "Morning.",
+            "output_2": "Afternoon."
+        }
+    },
+    {
+        "id": "077",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "078",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "079",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "080",
+        "output": {
+            "output_1": "Forward.",
+            "output_2": "Backward."
+        }
+    },
+    {
+        "id": "081",
+        "output": {
+            "output_1": "The first half.",
+            "output_2": "The second half."
+        }
+    },
+    {
+        "id": "082",
+        "output": {
+            "output_1": "Hibernating.",
+            "output_2": "Resting."
+        }
+    },
+    {
+        "id": "083",
+        "output": {
+            "output_1": "Resting.",
+            "output_2": "Hibernating."
+        }
+    },
+    {
+        "id": "084",
+        "output": {
+            "output_1": "Saying goodbye to me.",
+            "output_2": "Greeting me."
+        }
+    },
+    {
+        "id": "085",
+        "output": {
+            "output_1": "Greeting.",
+            "output_2": "Saying goodbye."
+        }
+    },
+    {
+        "id": "086",
+        "output": {
+            "output_1": "Greeting her.",
+            "output_2": "Saying goodbye to her."
+        }
+    },
+    {
+        "id": "087",
+        "output": {
+            "output_1": "From right to left.",
+            "output_2": "From left to right."
+        }
+    },
+    {
+        "id": "088",
+        "output": {
+            "output_1": "Down.",
+            "output_2": "Up."
+        }
+    },
+    {
+        "id": "089",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "090",
+        "output": {
+            "output_1": "From right to left.",
+            "output_2": "From left to right."
+        }
+    },
+    {
+        "id": "091",
+        "output": {
+            "output_1": "From right to left.",
+            "output_2": "From left to right."
+        }
+    },
+    {
+        "id": "092",
+        "output": {
+            "output_1": "From right to left.",
+            "output_2": "From left to right."
+        }
+    },
+    {
+        "id": "093",
+        "output": {
+            "output_1": "Upwards.",
+            "output_2": "Downwards."
+        }
+    },
+    {
+        "id": "094",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "095",
+        "output": {
+            "output_1": "Putting on your headset.",
+            "output_2": "Taking off your headset."
+        }
+    },
+    {
+        "id": "096",
+        "output": {
+            "output_1": "Closing the door.",
+            "output_2": "Opening the door."
+        }
+    },
+    {
+        "id": "097",
+        "output": {
+            "output_1": "Opening the door.",
+            "output_2": "Closing the door."
+        }
+    },
+    {
+        "id": "098",
+        "output": {
+            "output_1": "Unbuckling the seatbelt.",
+            "output_2": "Fasten the seatbelt."
+        }
+    },
+    {
+        "id": "099",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "100",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "101",
+        "output": {
+            "output_1": "Lift up his hands.",
+            "output_2": "Place down his hands."
+        }
+    },
+    {
+        "id": "102",
+        "output": {
+            "output_1": "Place down his hands.",
+            "output_2": "Lift up his hands."
+        }
+    },
+    {
+        "id": "103",
+        "output": {
+            "output_1": "From right to left.",
+            "output_2": "From left to right."
+        }
+    },
+    {
+        "id": "104",
+        "output": {
+            "output_1": "From left to right.",
+            "output_2": "From right to left."
+        }
+    },
+    {
+        "id": "105",
+        "output": {
+            "output_1": "Pulling.",
+            "output_2": "Pushing."
+        }
+    },
+    {
+        "id": "106",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "107",
+        "output": {
+            "output_1": "Opening the door.",
+            "output_2": "Closing the door."
+        }
+    },
+    {
+        "id": "108",
+        "output": {
+            "output_1": "Closing the door.",
+            "output_2": "Opening the door."
+        }
+    },
+    {
+        "id": "109",
+        "output": {
+            "output_1": "Picking the pot up.",
+            "output_2": "Putting the pot down."
+        }
+    },
+    {
+        "id": "110",
+        "output": {
+            "output_1": "Pulling.",
+            "output_2": "Pushing."
+        }
+    },
+    {
+        "id": "111",
+        "output": {
+            "output_1": "Taking the box out of the car.",
+            "output_2": "Putting the box into the car."
+        }
+    },
+    {
+        "id": "112",
+        "output": {
+            "output_1": "The person on the left.",
+            "output_2": "The person on the right."
+        }
+    },
+    {
+        "id": "113",
+        "output": {
+            "output_1": "The person on the left.",
+            "output_2": "The person on the right."
+        }
+    },
+    {
+        "id": "114",
+        "output": {
+            "output_1": "Forward.",
+            "output_2": "Backward."
+        }
+    },
+    {
+        "id": "115",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "116",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "117",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "118",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "119",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "120",
+        "output": {
+            "output_1": "Open.",
+            "output_2": "Closed."
+        }
+    },
+    {
+        "id": "121",
+        "output": {
+            "output_1": "Open.",
+            "output_2": "Closed."
+        }
+    },
+    {
+        "id": "122",
+        "output": {
+            "output_1": "Keep the sign unchanged.",
+            "output_2": "Flip the sign."
+        }
+    },
+    {
+        "id": "123",
+        "output": {
+            "output_1": "Counterclockwise.",
+            "output_2": "Clockwise."
+        }
+    },
+    {
+        "id": "124",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "125",
+        "output": {
+            "output_1": "Entering the station.",
+            "output_2": "Leaving the station."
+        }
+    },
+    {
+        "id": "126",
+        "output": {
+            "output_1": "7:23 (answers from 7:22 to 7:24 are all right).",
+            "output_2": "19:23 (answers from 19:22 to 19:24 are all right)."
+        }
+    },
+    {
+        "id": "127",
+        "output": {
+            "output_1": "7:23 (answers from 7:22 to 7:24 are all right).",
+            "output_2": "19:23 (answers from 19:22 to 19:24 are all right)."
+        }
+    },
+    {
+        "id": "128",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "129",
+        "output": {
+            "output_1": "8:12 (answers from 8:11 to 8:13 are all right).",
+            "output_2": "20:12 (answers from 20:11 to 20:13 are all right)."
+        }
+    },
+    {
+        "id": "130",
+        "output": {
+            "output_1": "8:12 (answers from 8:11 to 8:13 are all right).",
+            "output_2": "20:12 (answers from 20:11 to 20:13 are all right)."
+        }
+    },
+    {
+        "id": "131",
+        "output": {
+            "output_1": "10:20 (answers from 10:18 to 10:20 are all right).",
+            "output_2": "22:20 (answers from 22:18 to 22:20 are all right)."
+        }
+    },
+    {
+        "id": "132",
+        "output": {
+            "output_1": "22:20 (answers from 22:18 to 22:20 are all right).",
+            "output_2": "10:20 (answers from 10:18 to 10:20 are all right)."
+        }
+    },
+    {
+        "id": "133",
+        "output": {
+            "output_1": "Falling.",
+            "output_2": "Rising."
+        }
+    },
+    {
+        "id": "134",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "135",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "136",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "137",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "138",
+        "output": {
+            "output_1": "In the northern hemisphere.",
+            "output_2": "In the southern hemisphere."
+        }
+    },
+    {
+        "id": "139",
+        "output": {
+            "output_1": "In the northern hemisphere.",
+            "output_2": "In the southern hemisphere."
+        }
+    },
+    {
+        "id": "140",
+        "output": {
+            "output_1": "Northern Hemisphere.",
+            "output_2": "Southern Hemisphere."
+        }
+    },
+    {
+        "id": "141",
+        "output": {
+            "output_1": "Northern hemisphere country.",
+            "output_2": "Southern hemisphere country."
+        }
+    },
+    {
+        "id": "142",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "143",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "144",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "145",
+        "output": {
+            "output_1": "Pushing.",
+            "output_2": "Pulling."
+        }
+    },
+    {
+        "id": "146",
+        "output": {
+            "output_1": "Closing the gate.",
+            "output_2": "Opening the gate."
+        }
+    },
+    {
+        "id": "147",
+        "output": {
+            "output_1": "Pulling the gate.",
+            "output_2": "Pushing the gate."
+        }
+    },
+    {
+        "id": "148",
+        "output": {
+            "output_1": "Pushing the door.",
+            "output_2": "Pulling the door."
+        }
+    },
+    {
+        "id": "149",
+        "output": {
+            "output_1": "Closing the door.",
+            "output_2": "Opening the door."
+        }
+    },
+    {
+        "id": "150",
+        "output": {
+            "output_1": "At the bottom.",
+            "output_2": "At the top."
+        }
+    },
+    {
+        "id": "151",
+        "output": {
+            "output_1": "Picking up.",
+            "output_2": "Putting down."
+        }
+    },
+    {
+        "id": "152",
+        "output": {
+            "output_1": "In the car.",
+            "output_2": "Out of the car."
+        }
+    },
+    {
+        "id": "153",
+        "output": {
+            "output_1": "Putting down.",
+            "output_2": "Picking up."
+        }
+    },
+    {
+        "id": "154",
+        "output": {
+            "output_1": "Picking up.",
+            "output_2": "Putting down."
+        }
+    },
+    {
+        "id": "155",
+        "output": {
+            "output_1": "Pulling.",
+            "output_2": "Pushing."
+        }
+    },
+    {
+        "id": "156",
+        "output": {
+            "output_1": "Opening.",
+            "output_2": "Closing."
+        }
+    },
+    {
+        "id": "157",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "158",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "159",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "160",
+        "output": {
+            "output_1": "Putting the plate into the oven.",
+            "output_2": "Taking the plate out of the oven."
+        }
+    },
+    {
+        "id": "161",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "162",
+        "output": {
+            "output_1": "Saying goodbye.",
+            "output_2": "Greeting."
+        }
+    },
+    {
+        "id": "163",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "164",
+        "output": {
+            "output_1": "South.",
+            "output_2": "North."
+        }
+    },
+    {
+        "id": "165",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "166",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "167",
+        "output": {
+            "output_1": "North.",
+            "output_2": "South."
+        }
+    },
+    {
+        "id": "168",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "169",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "170",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "171",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "172",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "173",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "174",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "175",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "176",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "177",
+        "output": {
+            "output_1": "The northern hemisphere.",
+            "output_2": "The southern hemisphere."
+        }
+    },
+    {
+        "id": "178",
+        "output": {
+            "output_1": "Southern hemisphere country.",
+            "output_2": "Northern hemisphere country."
+        }
+    },
+    {
+        "id": "179",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "180",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "181",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "182",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "183",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "184",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "185",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "186",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "187",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "188",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "189",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "190",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "191",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "192",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "193",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "194",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "195",
+        "output": {
+            "output_1": "Eight.",
+            "output_2": "Two."
+        }
+    },
+    {
+        "id": "196",
+        "output": {
+            "output_1": "Five.",
+            "output_2": "One."
+        }
+    },
+    {
+        "id": "197",
+        "output": {
+            "output_1": "Down.",
+            "output_2": "Up."
+        }
+    },
+    {
+        "id": "198",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "199",
+        "output": {
+            "output_1": "The fifth course.",
+            "output_2": "The first course."
+        }
+    },
+    {
+        "id": "200",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "201",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "202",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "203",
+        "output": {
+            "output_1": "Solemn.",
+            "output_2": "Festive."
+        }
+    },
+    {
+        "id": "204",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "205",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "206",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "207",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "208",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "209",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "210",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "211",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "212",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "213",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "214",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "215",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "216",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "217",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "218",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "219",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "220",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "221",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "222",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "223",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "224",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "225",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "226",
+        "output": {
+            "output_1": "6:09 (answers from 6:07 to 6:10 are all right).",
+            "output_2": "6:25 (answers from 6:24 to 6:26 are all right)."
+        }
+    },
+    {
+        "id": "227",
+        "output": {
+            "output_1": "6:25 (answers from 6:24 to 6:26 are all right).",
+            "output_2": "6:09 (answers from 6:07 to 6:10 are all right)."
+        }
+    },
+    {
+        "id": "228",
+        "output": {
+            "output_1": "The right one.",
+            "output_2": "The left one."
+        }
+    },
+    {
+        "id": "229",
+        "output": {
+            "output_1": "5:51 (answers from 5:50 to 5:52 are all right).",
+            "output_2": "6:09 (answers from 6:08 to 6:10 are all right)."
+        }
+    },
+    {
+        "id": "230",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "231",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "232",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "233",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "234",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "235",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "236",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "237",
+        "output": {
+            "output_1": "Fahrenheit.",
+            "output_2": "Centigrade."
+        }
+    },
+    {
+        "id": "238",
+        "output": {
+            "output_1": "Fahrenheit.",
+            "output_2": "Centigrade."
+        }
+    },
+    {
+        "id": "239",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "240",
+        "output": {
+            "output_1": "\"DO NOT EXIT, ENTER ONLY\".",
+            "output_2": "\"DO NOT ENTER, EXIT ONLY\"."
+        }
+    },
+    {
+        "id": "241",
+        "output": {
+            "output_1": "\"DO NOT ENTER, EXIT ONLY\".",
+            "output_2": "\"DO NOT EXIT, ENTER ONLY\"."
+        }
+    },
+    {
+        "id": "242",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "243",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "244",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "245",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "246",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "247",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "248",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "249",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "250",
+        "output": {
+            "output_1": "Green.",
+            "output_2": "Red."
+        }
+    },
+    {
+        "id": "251",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "252",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "253",
+        "output": {
+            "output_1": "Below.",
+            "output_2": "Above."
+        }
+    },
+    {
+        "id": "254",
+        "output": {
+            "output_1": "Diagonally forward.",
+            "output_2": "Diagonally backward."
+        }
+    },
+    {
+        "id": "255",
+        "output": {
+            "output_1": "On a higher floor.",
+            "output_2": "On a lower floor."
+        }
+    },
+    {
+        "id": "256",
+        "output": {
+            "output_1": "The one with a yellow dot.",
+            "output_2": "The one with a red dot."
+        }
+    },
+    {
+        "id": "257",
+        "output": {
+            "output_1": "The one with a yellow dot.",
+            "output_2": "The one with a red dot."
+        }
+    },
+    {
+        "id": "258",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "259",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "260",
+        "output": {
+            "output_1": "White.",
+            "output_2": "Black."
+        }
+    },
+    {
+        "id": "261",
+        "output": {
+            "output_1": "A rabbit.",
+            "output_2": "A duck."
+        }
+    },
+    {
+        "id": "262",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "263",
+        "output": {
+            "output_1": "Seven.",
+            "output_2": "Six."
+        }
+    },
+    {
+        "id": "264",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "265",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "266",
+        "output": {
+            "output_1": "Diagonally backward.",
+            "output_2": "Diagonally forward."
+        }
+    },
+    {
+        "id": "267",
+        "output": {
+            "output_1": "Young.",
+            "output_2": "Old."
+        }
+    },
+    {
+        "id": "268",
+        "output": {
+            "output_1": "Old.",
+            "output_2": "Young."
+        }
+    },
+    {
+        "id": "269",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "270",
+        "output": {
+            "output_1": "Black.",
+            "output_2": "White."
+        }
+    },
+    {
+        "id": "271",
+        "output": {
+            "output_1": "A side face.",
+            "output_2": "A front face."
+        }
+    },
+    {
+        "id": "272",
+        "output": {
+            "output_1": "A man.",
+            "output_2": "A woman."
+        }
+    },
+    {
+        "id": "273",
+        "output": {
+            "output_1": "A man.",
+            "output_2": "A woman."
+        }
+    },
+    {
+        "id": "274",
+        "output": {
+            "output_1": "Opening his bag.",
+            "output_2": "Closing his bag."
+        }
+    },
+    {
+        "id": "275",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "276",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "277",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "278",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "279",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "280",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "281",
+        "output": {
+            "output_1": "White.",
+            "output_2": "Black."
+        }
+    },
+    {
+        "id": "282",
+        "output": {
+            "output_1": "The blue dot.",
+            "output_2": "The red dot."
+        }
+    },
+    {
+        "id": "283",
+        "output": {
+            "output_1": "Old.",
+            "output_2": "Young."
+        }
+    },
+    {
+        "id": "284",
+        "output": {
+            "output_1": "Old.",
+            "output_2": "Young."
+        }
+    },
+    {
+        "id": "285",
+        "output": {
+            "output_1": "The one with a red dot.",
+            "output_2": "The one with a blue dot."
+        }
+    },
+    {
+        "id": "286",
+        "output": {
+            "output_1": "The one with a red dot.",
+            "output_2": "The one with a blue dot."
+        }
+    },
+    {
+        "id": "287",
+        "output": {
+            "output_1": "Up.",
+            "output_2": "Down."
+        }
+    },
+    {
+        "id": "288",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "289",
+        "output": {
+            "output_1": "Seven.",
+            "output_2": "Six."
+        }
+    },
+    {
+        "id": "290",
+        "output": {
+            "output_1": "Yes.",
+            "output_2": "No."
+        }
+    },
+    {
+        "id": "291",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "292",
+        "output": {
+            "output_1": "Facing away from each other.",
+            "output_2": "Facing each other"
+        }
+    },
+    {
+        "id": "293",
+        "output": {
+            "output_1": "From below.",
+            "output_2": "From above."
+        }
+    },
+    {
+        "id": "294",
+        "output": {
+            "output_1": "From above.",
+            "output_2": "From below."
+        }
+    },
+    {
+        "id": "295",
+        "output": {
+            "output_1": "Edge A.",
+            "output_2": "Edge B."
+        }
+    },
+    {
+        "id": "296",
+        "output": {
+            "output_1": "A hill.",
+            "output_2": "A crater."
+        }
+    },
+    {
+        "id": "297",
+        "output": {
+            "output_1": "From the right.",
+            "output_2": "From the left."
+        }
+    },
+    {
+        "id": "298",
+        "output": {
+            "output_1": "A crater.",
+            "output_2": "A hill."
+        }
+    },
+    {
+        "id": "299",
+        "output": {
+            "output_1": "From the left.",
+            "output_2": "From the right."
+        }
+    },
+    {
+        "id": "300",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Up."
+        }
+    },
+    {
+        "id": "301",
+        "output": {
+            "output_1": "Back.",
+            "output_2": "Front."
+        }
+    },
+    {
+        "id": "302",
+        "output": {
+            "output_1": "Front.",
+            "output_2": "Back."
+        }
+    },
+    {
+        "id": "303",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "304",
+        "output": {
+            "output_1": "A short dress.",
+            "output_2": "A long dress."
+        }
+    },
+    {
+        "id": "305",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "306",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "307",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "308",
+        "output": {
+            "output_1": "On the left.",
+            "output_2": "On the right."
+        }
+    },
+    {
+        "id": "309",
+        "output": {
+            "output_1": "On the right.",
+            "output_2": "On the left."
+        }
+    },
+    {
+        "id": "310",
+        "output": {
+            "output_1": "On the left.",
+            "output_2": "On the right."
+        }
+    },
+    {
+        "id": "311",
+        "output": {
+            "output_1": "On the right.",
+            "output_2": "On the left."
+        }
+    },
+    {
+        "id": "312",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "313",
+        "output": {
+            "output_1": "No.",
+            "output_2": "Yes."
+        }
+    },
+    {
+        "id": "314",
+        "output": {
+            "output_1": "In the back.",
+            "output_2": "In the front."
+        }
+    },
+    {
+        "id": "315",
+        "output": {
+            "output_1": "In the front.",
+            "output_2": "In the back."
+        }
+    },
+    {
+        "id": "316",
+        "output": {
+            "output_1": "On the left.",
+            "output_2": "On the right."
+        }
+    },
+    {
+        "id": "317",
+        "output": {
+            "output_1": "On the right.",
+            "output_2": "On the left."
+        }
+    },
+    {
+        "id": "318",
+        "output": {
+            "output_1": "The man on the right.",
+            "output_2": "The man on the left."
+        }
+    },
+    {
+        "id": "319",
+        "output": {
+            "output_1": "The man on the right.",
+            "output_2": "The man on the left."
+        }
+    },
+    {
+        "id": "320",
+        "output": {
+            "output_1": "The lady on the left.",
+            "output_2": "The lady on the right."
+        }
+    },
+    {
+        "id": "321",
+        "output": {
+            "output_1": "The lady on the left.",
+            "output_2": "The lady on the right."
+        }
+    },
+    {
+        "id": "322",
+        "output": {
+            "output_1": "The lady on the right.",
+            "output_2": "The lady on the left."
+        }
+    },
+    {
+        "id": "323",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "324",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "325",
+        "output": {
+            "output_1": "The one on the left.",
+            "output_2": "The one on the right."
+        }
+    },
+    {
+        "id": "326",
+        "output": {
+            "output_1": "West.",
+            "output_2": "East."
+        }
+    },
+    {
+        "id": "327",
+        "output": {
+            "output_1": "East.",
+            "output_2": "West."
+        }
+    },
+    {
+        "id": "328",
+        "output": {
+            "output_1": "On my right.",
+            "output_2": "On my left."
+        }
+    },
+    {
+        "id": "329",
+        "output": {
+            "output_1": "On my left.",
+            "output_2": "On my right."
+        }
+    },
+    {
+        "id": "330",
+        "output": {
+            "output_1": "A boy.",
+            "output_2": "A girl."
+        }
+    },
+    {
+        "id": "331",
+        "output": {
+            "output_1": "The boy.",
+            "output_2": "The girl."
+        }
+    },
+    {
+        "id": "332",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "333",
+        "output": {
+            "output_1": "The defense.",
+            "output_2": "The offense."
+        }
+    },
+    {
+        "id": "334",
+        "output": {
+            "output_1": "The person on the right.",
+            "output_2": "The person on the left."
+        }
+    },
+    {
+        "id": "335",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "336",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "337",
+        "output": {
+            "output_1": "The woman.",
+            "output_2": "The man."
+        }
+    },
+    {
+        "id": "338",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "339",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "340",
+        "output": {
+            "output_1": "In the front.",
+            "output_2": "In the back."
+        }
+    },
+    {
+        "id": "341",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "342",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "343",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "344",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "345",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "346",
+        "output": {
+            "output_1": "Left",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "347",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "348",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    },
+    {
+        "id": "349",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "350",
+        "output": {
+            "output_1": "The woman.",
+            "output_2": "The man."
+        }
+    },
+    {
+        "id": "351",
+        "output": {
+            "output_1": "Right.",
+            "output_2": "Left."
+        }
+    },
+    {
+        "id": "352",
+        "output": {
+            "output_1": "Left.",
+            "output_2": "Right."
+        }
+    }
+]

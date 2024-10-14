@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CODIS</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="description" content="Benchmarking Context-Dependent Visual Comprehension for Multimodal Large Language Models">
+  <meta name="keywords" content="CODIS, MLLM, VLM, Multimodal Large Language Model, Vision-language Model, Evaluation, Benchmark, Context, AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> CODIS: Benchmarking Context-Dependent Visual Comprehension for Multimodal Large Language Models </title>
+  <link rel="icon" href="./static/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/leaderboard.css">
+  <script type="text/javascript" src="static/js/sort-table.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+  </script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/question_card.js"></script>
+</head>
+
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title is-bold">
+            <img src="static/images/logo.png" style="width:1em;vertical-align:middle" alt="logo">
+            <span class="codis" style="vertical-align:middle">CODIS</span>
+          </h1>
+          <h2 class="subtitle is-3 publication-subtitle">
+            Benchmarking Context-Dependent Visual Comprehension
+            <br>
+            for Multimodal Large Language Models
+          </h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Fuwen Luo<sup style="color:#9b51e0;">1</sup>*,</span>
+            <span class="author-block">Chi Chen<sup style="color:#9b51e0;">1</sup>*,</span>
+            <span class="author-block">Zihao Wan<sup style="color:#9b51e0;">1</sup>,</span>
+            <span class="author-block">Zhaolu Kang<sup style="color:#007bff;">6</sup>,</span>
+            <span class="author-block">Qidong Yan<sup style="color:#a1a13e;">5</sup>,</span>
+            <span class="author-block">Yingjie Li<sup style="color:#a1a13e;">5</sup>,</span><br>
+            <span class="author-block">Xiaolong Wang<sup style="color:#9b51e0;">1</sup>,</span>
+            <span class="author-block">Siyu Wang<sup style="color:#ed4b82;">2</sup>,</span>
+            <span class="author-block">Ziyue Wang<sup style="color:#9b51e0;">1</sup>,</span>
+            <span class="author-block">Xiaoyue Mi<sup style="color:#ff6600;">7</sup>,</span><br>
+            <span class="author-block">Peng Li<sup style="color:#ed4b82;">2</sup><sup>,</sup><sup style="color:#33cac2;">3</sup><sup>†</sup>,</span>
+            <span class="author-block">Ning Ma<sup style="color:#a1a13e;">5</sup>,</span>
+            <span class="author-block">Maosong Sun<sup style="color:#9b51e0;">1</sup><sup>†</sup>,</span>
+            <span class="author-block">Yang Liu<sup style="color:#9b51e0;">1</sup><sup>,</sup><sup style="color:#ed4b82;">2</sup><sup>,</sup><sup style="color:#33cac2;">3</sup><sup>,</sup><sup style="color:#3f8f43;">4</sup></span><br>
+          </div>
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup style="color:#9b51e0;">1</sup>Dept. of Comp. Sci. & Tech., Institute for AI, Tsinghua University, Beijing, China</span><br>
+            <span class="author-block"><sup style="color:#ed4b82;">2</sup>Institute for AI Industry Research (AIR), Tsinghua University, Beijing, China</span><br>
+            <span class="author-block"><sup style="color:#33cac2;">3</sup>Shanghai Artificial Intelligence Laboratory, Shanghai, China</span><br>
+            <span class="author-block"><sup style="color:#3f8f43;">4</sup>Jiangsu Collaborative Innovation Center for Language Competence, Jiangsu, China</span><br>
+            <span class="author-block"><sup style="color:#a1a13e;">5</sup>Key Laboratory of Linguistic and Cultural Computing Ministry of Education,<br>Northwest Minzu University, China</span><br>
+            <span class="author-block"><sup style="color:#007bff;">6</sup>College of Software, Jilin University, China</span><br>
+            <span class="author-block"><sup style="color:#ff6600;">7</sup>Institute of Computing Technology, Chinese Academy of Sciences</span><br>
+          </div>
+
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">*Equal contribution</span><br>
+            <span class="author-block">†Corresponding authors</span><br>
+            <span class="author-block"><a href="mailto:lfw23@mails.tsinghua.edu.cn">lfw23@mails.tsinghua.edu.cn</a>, <a href="mailto:chenchi19@mails.tsinghua.edu.cn">chenchi19@mails.tsinghua.edu.cn</a></span><br>
+            <span class="author-block"><a href="mailto:lipeng@air.tsinghua.edu.cn">lipeng@air.tsinghua.edu.cn</a>, <a href="mailto:sms@tsinghua.edu.cn">sms@tsinghua.edu.cn</a></span><br>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2402.13607" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>&nbsp;
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/CODIS/CODIS" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <p style="font-size:18px">🤗</p>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>&nbsp;
+              <span class="link-block">
+                <a href="https://github.com/THUNLP-MT/CODIS" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </a>
+              </span>&nbsp;
+              <span class="link-block">
+                <a href="http://49.232.144.86:9000" class="external-link button is-normal is-rounded is-dark">
+                  <img src="static/images/logo.png" style="width:1em;vertical-align:middle" alt="logo">
+                  <span>&nbsp;Playground</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+</style>
+
+<!-- Introduction Image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="content has-text-centered">
+      <img src="static/images/introduction.jpg" alt="introduction" width="50%">
+    </div>
+  </div>
+</section>
+<!--/ Introduction Image -->
+
+<!-- Introduction -->
+<section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            Interpretation of images can be significantly influenced by contextual information. In this instance, the determination of whether the photographer was ascending or descending a staircase remains ambiguous without supplementary context (a). However, when additional information is provided, indicating the position of the greenery relative to the observer, the direction of movement of the observer becomes clear (b).
+          </p>
+          <p>
+            <strong>For more cases, please go to our <a href="http://49.232.144.86:9000">playground</a>.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+<!--/ Introduction -->
+
+<!-- CODIS Benchmark Banner -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 codis">
+      <span class="codis" style="vertical-align: middle">CODIS Benchmark</span>
+    </h1>
+  </div>
+</section>
+<!--/ CODIS Benchmark Banner -->
+
+<!-- CODIS Benchmark -->
+<section class="section">
+  <div class="container">
+    <!-- Overview -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            In certain situations, images need to be interpreted within a broader context. We introduce a new benchmark, named as <b>CODIS</b> (<b>CO</b>ntext-<b>D</b>ependent <b>I</b>mage di<b>S</b>ambiguation), designed to assess the ability of models to use context provided in free-form text to enhance visual comprehension. It stands out from existing benchmarks in three main aspects:
+            <div>1. Each image in CODIS contains inherent ambiguity that can only be resolved with additional context.</div>
+            <div>2. The questions are deliberately designed to highlight these ambiguities, requiring external context for accurate interpretation.</div>
+            <div>3. For every image-question pair, we provide two contexts in a free-form text format.</div>
+          </p>
+          <p>
+            We have identified five representative types of context, including three types of global context that pertain to the overall scene—namely, the global background, which encompasses location and orientation, temporal information, and cultural background, and two types of local context related to objects within the scene, specifically the attributes of objects and the relationships between people.
+          </p>
+          <div class="content has-text-centered">
+            <img src="static/images/taxonomy.jpg" alt="taxonomy" width="90%">
+          </div>
+          <br>
+          <p>
+            To prevent models from guessing the correct answers without fully understanding context, we organize our dataset in pairs. Each pair contains two queries $ (I,Q,C_1) $ and $ (I,Q,C_2) $. The queries have identical image $ I $ and question $ Q $, but have two pieces of different context $ C_1 $ and $ C_2 $. We give MLLMs two queries separately, and get model outputs $ O_1 $ and $ O_2 $.
+          </p>
+          <p>
+            We leverage two metrics, pair-wise accuracy $ \mathrm{Acc}_p $ and query-wise accuracy $ \mathrm{Acc}_q $ for our evaluation metrics. For $ \mathrm{Acc}_p $, models score only if their answers to a pair of queries are both correct. For $ \mathrm{Acc}_q $, models score for each single query they answer correctly.
+          </p>
+          <p>
+            We manually collect images that contain ambiguities which can only be resolved with external contexts. The majority of these images are real-scene images from the publicly available dataset ShareGPT4V and the Internet, while the remainder are created manually. For each collected image, we manually write questions, context and answers for it.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Overview -->
+
+    <!-- Comparisons with Existing Benchmarks -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Comparisons with Existing Benchmarks</h2>
+        <div class="content has-text-justified">
+          <p>
+            We summarize recent benchmarks for MLLMs in the following table. Most of these benchmarks do not pair images with additional context. Only two benchmarks, namely VisDial and MMDialog, include extra context to help in conversation with humans rather than to clarify the meaning of images. This limitation means these benchmarks are not fully capable of testing the ability of MLLMs to understand images in a context-dependent manner.
+          </p>
+          <div class="content has-text-centered">
+            <img src="static/images/other_benchmark.jpg" alt="other_benchmark" width="80%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Comparisons with Existing Benchmarks -->
+
+    <!-- Statistics -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Statistics</h2>
+        <div class="content has-text-justified">
+          <p>
+            We collect 216 images and successfully collected a total of 706 queries, spanning five categories and encompassing a wide range of scenarios. The distribution of categories and scenarios is illustrated in the following figure.
+          </p>
+          <div class="content has-text-centered">
+            <img src="static/images/categories.jpg" alt="categories" width="50%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Statistics -->
+  </div>
+</section>
+<!--/ CODIS Benchmark -->
+
+<!-- Evaluation Banner -->
+<section class="hero is-light is-small">
+  <div class="hero-body has-text-centered">
+    <h1 class="title is-1 codis">
+      <span class="codis" style="vertical-align: middle">Evaluation</span>
+    </h1>
+  </div>
+</section>
+<!--/ Evaluation Banner -->
+
+<!-- Evaluation -->
+<section class="section">
+  <div class="container">
+    <!-- Leaderboard -->
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
+        <div class="content">
+          <div class="content has-text-justified">
+            <p>
+              We perform evaluation on 14 popular MLLMs, which are divided into three groups: (1) API-based models; (2) Open-source ~7B models; (3) Open-source ~13B models. We evaluate various models including LLMs and LMMs. "Human" refers to the average performance of five independent people. We show $ \mathrm{Acc}_p $ and $ \mathrm{Acc}_q $ based on human and GPT-4 evaluation in the leaderboard.
+            </p>
+          </div>
+
+          <!-- Human Evaluation -->
+          <button id="toggleButton"><b style='font-size: larger;'>Human Evaluation</b></button>
+          <div class="model-labels-container">
+            <span class="leaderboard-label" style="background-color: rgba(99, 178, 238, 0.25);">Human</span>
+            <span class="leaderboard-label" style="background-color: rgba(118, 218, 145, 0.25);">API-based Models</span>
+            <span class="leaderboard-label" style="background-color: rgba(248, 203, 127, 0.25);">Open-source ~13B Models</span>
+            <span class="leaderboard-label" style="background-color: rgba(248, 149, 136, 0.25);">Open-source ~7B Models</span>
+          </div>
+
+          <table id="table" class="js-sort-table">
+            <tr style="background-color: rgba(0, 0, 0, 0);" hidden="hidden"></tr>
+            <tr style="background-color: rgba(0, 0, 0, 0.1);">
+              <td class="js-sort-number" rowspan="2" style="vertical-align: middle;"><strong>Model</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Loc & Ori</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Temporal</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Cultural</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Attributes</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Relationships</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Overall</strong></td>
+            </tr>
+            <tr style="background-color: rgba(0, 0, 0, 0.1);">
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+            </tr>
+            <tr style="background-color: rgba(99, 178, 238, 0.25);">
+              <td style="text-align: left;"><b>Human</b></td>
+              <td><b>85.2</b></td>
+              <td><b>86.1</b></td>
+              <td><b>90.9</b></td>
+              <td><b>92.8</b></td>
+              <td><b>72.8</b></td>
+              <td><b>76.4</b></td>
+              <td><b>87.2</b></td>
+              <td><b>88.4</b></td>
+              <td><b>89.6</b></td>
+              <td><b>90.0</b></td>
+              <td><b>86.2</b></td>
+              <td><b>87.7</b></td>
+            </tr>
+            <tr style="background-color: rgba(118, 218, 145, 0.25);">
+              <td style="text-align: left;"><a href="https://openai.com/gpt-4"><b>GPT-4V</b></a></td>
+              <td><b>33.3</b></td>
+              <td><b>54.2</b></td>
+              <td style="text-decoration: underline;">28.4</td>
+              <td><b>52.1</b></td>
+              <td><b>25.5</b></td>
+              <td><b>60.6</b></td>
+              <td><b>26.7</b></td>
+              <td><b>54.7</b></td>
+              <td><b>51.9</b></td>
+              <td><b>70.2</b></td>
+              <td><b>32.3</b></td>
+              <td><b>56.9</b></td>
+            </tr>
+            <tr style="background-color: rgba(118, 218, 145, 0.25);">
+              <td style="text-align: left;"><a href="https://deepmind.google/technologies/gemini"><b>Gemini</b></a></td>
+              <td style="text-decoration: underline;">21.4</td>
+              <td style="text-decoration: underline;">49.4</td>
+              <td><b>29.5</b></td>
+              <td style="text-decoration: underline;">51.1</td>
+              <td style="text-decoration: underline;">21.3</td>
+              <td style="text-decoration: underline;">56.4</td>
+              <td style="text-decoration: underline;">24.0</td>
+              <td style="text-decoration: underline;">52.0</td>
+              <td style="text-decoration: underline;">34.6</td>
+              <td style="text-decoration: underline;">58.7</td>
+              <td style="text-decoration: underline;">26.1</td>
+              <td style="text-decoration: underline;">52.7</td>
+            </tr>
+            <tr style="background-color: rgba(248, 203, 127, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/haotian-liu/LLaVA"><b>LLaVA-1.5-13B</b></a></td>
+              <td><b><span style="visibility: hidden">0</span>6.0</b></td>
+              <td><b>41.1</b></td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>4.2</td>
+              <td style="text-decoration: underline;">44.7</td>
+              <td><b>10.6</b></td>
+              <td><b>50.0</b></td>
+              <td><b>14.7</b></td>
+              <td><b>51.3</b></td>
+              <td><b>13.5</b></td>
+              <td><b>54.8</b></td>
+              <td><b><span style="visibility: hidden">0</span>9.1</b></td>
+              <td><b>47.5</b></td>
+            </tr>
+            <tr style="background-color: rgba(248, 203, 127, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/blip2"><b>BLIP-2-11B</b></a></td>
+              <td><b><span style="visibility: hidden">0</span>6.0</b></td>
+              <td>32.7</td>
+              <td><b><span style="visibility: hidden">0</span>8.4</b></td>
+              <td><b>45.8</b></td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>4.3</td>
+              <td>35.1</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>6.7</td>
+              <td>42.0</td>
+              <td style="text-decoration: underline;">11.5</td>
+              <td style="text-decoration: underline;">51.9</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>7.4</td>
+              <td>41.4</td>
+            </tr>
+            <tr style="background-color: rgba(248, 203, 127, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/instructblip"><b>InstructBLIP-13B</b></a></td>
+              <td><b><span style="visibility: hidden">0</span>6.0</b></td>
+              <td style="text-decoration: underline;">39.3</td>
+              <td><span style="visibility: hidden">0</span>2.1</td>
+              <td>41.6</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>4.3</td>
+              <td><b>50.0</b></td>
+              <td><span style="visibility: hidden">0</span>4.0</td>
+              <td style="text-decoration: underline;">44.7</td>
+              <td><span style="visibility: hidden">0</span>7.7</td>
+              <td>51.0</td>
+              <td><span style="visibility: hidden">0</span>4.5</td>
+              <td style="text-decoration: underline;">44.2</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/X-PLUG/mPLUG-Owl"><b>mPLUG-Owl-2-7B</b></a></td>
+              <td><b>13.1</b></td>
+              <td style="text-decoration: underline;">42.3</td>
+              <td><b><span style="visibility: hidden">0</span>9.5</b></td>
+              <td>41.6</td>
+              <td><b><span style="visibility: hidden">0</span>6.4</b></td>
+              <td>42.6</td>
+              <td><b>12.0</b></td>
+              <td style="text-decoration: underline;">44.7</td>
+              <td><b>19.2</b></td>
+              <td style="text-decoration: underline;">51.9</td>
+              <td><b>11.9</b></td>
+              <td style="text-decoration: underline;">44.1</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/Vision-CAIR/MiniGPT-4"><b>MiniGPT4-7B</b></a></td>
+              <td>10.7</td>
+              <td>36.3</td>
+              <td><span style="visibility: hidden">0</span>3.2</td>
+              <td>34.2</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>27.7</td>
+              <td><b>12.0</b></td>
+              <td>35.3</td>
+              <td style="text-decoration: underline;">13.5</td>
+              <td>47.1</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>7.9</td>
+              <td>36.0</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/haotian-liu/LLaVA"><b>LLaVA-1.5-7B</b></a></td>
+              <td style="text-decoration: underline;">11.9</td>
+              <td><b>42.9</b></td>
+              <td><span style="visibility: hidden">0</span>5.3</td>
+              <td style="text-decoration: underline;">44.7</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>4.3</td>
+              <td>43.6</td>
+              <td><span style="visibility: hidden">0</span>9.3</td>
+              <td>39.3</td>
+              <td><span style="visibility: hidden">0</span>7.7</td>
+              <td>47.1</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>7.9</td>
+              <td>43.3</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/instructblip"><b>InstructBLIP-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>1.2</td>
+              <td>33.3</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>7.4</td>
+              <td><b>45.8</b></td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td style="text-decoration: underline;">46.8</td>
+              <td><span style="visibility: hidden">0</span>4.0</td>
+              <td>43.3</td>
+              <td>11.5</td>
+              <td>48.1</td>
+              <td><span style="visibility: hidden">0</span>4.8</td>
+              <td>42.8</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/Luodian/Otter"><b>Otter-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>2.4</td>
+              <td>32.7</td>
+              <td><span style="visibility: hidden">0</span>5.3</td>
+              <td>41.1</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>4.3</td>
+              <td>28.7</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>26.0</td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td>40.4</td>
+              <td><span style="visibility: hidden">0</span>3.4</td>
+              <td>34.1</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/haotian-liu/LLaVA"><b>LLaVA-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>2.4</td>
+              <td>30.4</td>
+              <td><span style="visibility: hidden">0</span>6.3</td>
+              <td>34.2</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>25.5</td>
+              <td><span style="visibility: hidden">0</span>1.3</td>
+              <td>34.0</td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td>41.3</td>
+              <td><span style="visibility: hidden">0</span>3.4</td>
+              <td>33.1</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/QwenLM/Qwen-VL"><b>Qwen-VL-Chat</b></a></td>
+              <td><span style="visibility: hidden">0</span>3.6</td>
+              <td>23.8</td>
+              <td><span style="visibility: hidden">0</span>3.2</td>
+              <td>24.7</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>24.5</td>
+              <td><span style="visibility: hidden">0</span>1.3</td>
+              <td>32.0</td>
+              <td><span style="visibility: hidden">0</span>9.6</td>
+              <td>34.6</td>
+              <td><span style="visibility: hidden">0</span>3.4</td>
+              <td>27.5</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/mlfoundations/open_flamingo"><b>OpenFlamingo-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>2.4</td>
+              <td>40.5</td>
+              <td><span style="visibility: hidden">0</span>2.1</td>
+              <td>38.9</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>27.7</td>
+              <td><span style="visibility: hidden">0</span>5.3</td>
+              <td>36.0</td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td>47.1</td>
+              <td><span style="visibility: hidden">0</span>3.1</td>
+              <td>38.4</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/blip2"><b>BLIP-2-6.7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>41.1</td>
+              <td><span style="visibility: hidden">0</span>1.1</td>
+              <td style="text-decoration: underline;">44.7</td>
+              <td><span style="visibility: hidden">0</span>2.1</td>
+              <td><b>48.9</b></td>
+              <td><span style="visibility: hidden">0</span>2.7</td>
+              <td><b>46.0</b></td>
+              <td><span style="visibility: hidden">0</span>7.7</td>
+              <td><b>53.8</b></td>
+              <td><span style="visibility: hidden">0</span>2.3</td>
+              <td><b>46.0</b></td>
+            </tr>
+          </table>
+          <!--/ Human Evaluation -->
+
+          <!-- GPT-4 Evaluation -->
+          <button id="toggleButton"><b style='font-size: larger;'>GPT-4 Evaluation</b></button>
+          <div class="model-labels-container">
+            <span class="leaderboard-label" style="background-color: rgba(118, 218, 145, 0.25);">API-based Models</span>
+            <span class="leaderboard-label" style="background-color: rgba(248, 203, 127, 0.25);">Open-source ~13B Models</span>
+            <span class="leaderboard-label" style="background-color: rgba(248, 149, 136, 0.25);">Open-source ~7B Models</span>
+          </div>
+
+          <table id="table" class="js-sort-table">
+            <tr style="background-color: rgba(0, 0, 0, 0);" hidden="hidden"></tr>
+            <tr style="background-color: rgba(0, 0, 0, 0.1);">
+              <td class="js-sort-number" rowspan="2" style="vertical-align: middle;"><strong>Model</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Loc & Ori</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Temporal</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Cultural</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Attributes</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Relationships</strong></td>
+              <td class="js-sort-number" colspan="2" width="14%"><strong>Overall</strong></td>
+            </tr>
+            <tr style="background-color: rgba(0, 0, 0, 0.1);">
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_p $</strong></td>
+              <td class="js-sort-number"><strong>$ \mathrm{Acc}_q $</strong></td>
+            </tr>
+            <tr style="background-color: rgba(118, 218, 145, 0.25);">
+              <td style="text-align: left;"><a href="https://openai.com/gpt-4"><b>GPT-4V</b></a></td>
+              <td><b>33.3</b></td>
+              <td><b>53.6</b></td>
+              <td><b>28.4</b></td>
+              <td><b>50.5</b></td>
+              <td><b>21.3</b></td>
+              <td style="text-decoration: underline;">53.2</td>
+              <td><b>25.3</b></td>
+              <td><b>54.0</b></td>
+              <td><b>50.0</b></td>
+              <td><b>69.2</b></td>
+              <td><b>31.2</b></td>
+              <td><b>55.1</b></td>
+            </tr>
+            <tr style="background-color: rgba(118, 218, 145, 0.25);">
+              <td style="text-align: left;"><a href="https://deepmind.google/technologies/gemini"><b>Gemini</b></a></td>
+              <td style="text-decoration: underline;">20.2</td>
+              <td style="text-decoration: underline;">48.8</td>
+              <td style="text-decoration: underline;">27.4</td>
+              <td style="text-decoration: underline;">50.0</td>
+              <td><b>21.3</b></td>
+              <td><b>54.3</b></td>
+              <td style="text-decoration: underline;">22.7</td>
+              <td style="text-decoration: underline;">51.3</td>
+              <td style="text-decoration: underline;">30.8</td>
+              <td style="text-decoration: underline;">54.8</td>
+              <td style="text-decoration: underline;">24.4</td>
+              <td style="text-decoration: underline;">51.3</td>
+            </tr>
+            <tr style="background-color: rgba(248, 203, 127, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/haotian-liu/LLaVA"><b>LLaVA-1.5-13B</b></a></td>
+              <td><b><span style="visibility: hidden">0</span>6.0</b></td>
+              <td><b>41.1</b></td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>3.2</td>
+              <td style="text-decoration: underline;">43.2</td>
+              <td><b>12.8</b></td>
+              <td><b>46.8</b></td>
+              <td><b>13.3</b></td>
+              <td><b>50.0</b></td>
+              <td><b>11.5</b></td>
+              <td><b>53.8</b></td>
+              <td><b><span style="visibility: hidden">0</span>8.5</b></td>
+              <td><b>46.2</b></td>
+            </tr>
+            <tr style="background-color: rgba(248, 203, 127, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/blip2"><b>BLIP-2-11B</b></a></td>
+              <td><b><span style="visibility: hidden">0</span>6.0</b></td>
+              <td>34.5</td>
+              <td><b>10.5</b></td>
+              <td><b>44.2</b></td>
+              <td><span style="visibility: hidden">0</span>4.3</td>
+              <td>30.9</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>6.7</td>
+              <td>40.7</td>
+              <td><b>11.5</b></td>
+              <td>47.1</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>8.0</td>
+              <td>39.8</td>
+            </tr>
+            <tr style="background-color: rgba(248, 203, 127, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/instructblip"><b>InstructBLIP-13B</b></a></td>
+              <td><b><span style="visibility: hidden">0</span>6.0</b></td>
+              <td style="text-decoration: underline;">39.9</td>
+              <td><span style="visibility: hidden">0</span>2.1</td>
+              <td>41.1</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>6.4</td>
+              <td><b>46.8</b></td>
+              <td><span style="visibility: hidden">0</span>4.0</td>
+              <td style="text-decoration: underline;">44.7</td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td style="text-decoration: underline;">48.1</td>
+              <td><span style="visibility: hidden">0</span>4.5</td>
+              <td style="text-decoration: underline;">43.3</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/X-PLUG/mPLUG-Owl"><b>mPLUG-Owl-2-7B</b></a></td>
+              <td><b>13.1</b></td>
+              <td>39.9</td>
+              <td><b><span style="visibility: hidden">0</span>9.5</b></td>
+              <td>40.0</td>
+              <td><b><span style="visibility: hidden">0</span>4.3</b></td>
+              <td>41.5</td>
+              <td><b><span style="visibility: hidden">0</span>9.3</b></td>
+              <td>42.7</td>
+              <td><b>11.5</b></td>
+              <td style="text-decoration: underline;">48.1</td>
+              <td><b><span style="visibility: hidden">0</span>9.9</b></td>
+              <td>41.9</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/Vision-CAIR/MiniGPT-4"><b>MiniGPT4-7B</b></a></td>
+              <td style="text-decoration: underline;">10.7</td>
+              <td>34.5</td>
+              <td><span style="visibility: hidden">0</span>4.2</td>
+              <td>32.1</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>27.7</td>
+              <td><span style="visibility: hidden">0</span>8.0</td>
+              <td>32.7</td>
+              <td><span style="visibility: hidden">0</span>9.6</td>
+              <td>43.3</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>6.8</td>
+              <td>33.9</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/haotian-liu/LLaVA"><b>LLaVA-1.5-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>8.3</td>
+              <td>37.5</td>
+              <td><span style="visibility: hidden">0</span>1.1</td>
+              <td>36.3</td>
+              <td><span style="visibility: hidden">0</span>2.1</td>
+              <td>40.4</td>
+              <td><b><span style="visibility: hidden">0</span>9.3</b></td>
+              <td>37.3</td>
+              <td><span style="visibility: hidden">0</span>7.7</td>
+              <td style="text-decoration: underline;">48.1</td>
+              <td><span style="visibility: hidden">0</span>5.7</td>
+              <td>39.1</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/instructblip"><b>InstructBLIP-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>1.2</td>
+              <td>34.5</td>
+              <td style="text-decoration: underline;"><span style="visibility: hidden">0</span>5.3</td>
+              <td><b>43.7</b></td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td style="text-decoration: underline;">45.7</td>
+              <td><span style="visibility: hidden">0</span>4.0</td>
+              <td style="text-decoration: underline;">44.0</td>
+              <td><b>11.5</b></td>
+              <td>47.1</td>
+              <td><span style="visibility: hidden">0</span>4.2</td>
+              <td style="text-decoration: underline;"''>42.4</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/Luodian/Otter"><b>Otter-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>2.4</td>
+              <td>31.5</td>
+              <td><span style="visibility: hidden">0</span>3.2</td>
+              <td>35.3</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>23.4</td>
+              <td><span style="visibility: hidden">0</span>1.3</td>
+              <td>27.3</td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td>34.6</td>
+              <td><span style="visibility: hidden">0</span>2.5</td>
+              <td>31.0</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/haotian-liu/LLaVA"><b>LLaVA-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>2.4</td>
+              <td>29.8</td>
+              <td><span style="visibility: hidden">0</span>4.2</td>
+              <td>33.7</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>17.0</td>
+              <td><span style="visibility: hidden">0</span>2.7</td>
+              <td>33.3</td>
+              <td><span style="visibility: hidden">0</span>1.9</td>
+              <td>37.5</td>
+              <td><span style="visibility: hidden">0</span>2.5</td>
+              <td>31.0</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/QwenLM/Qwen-VL"><b>Qwen-VL-Chat</b></a></td>
+              <td><span style="visibility: hidden">0</span>4.8</td>
+              <td>23.8</td>
+              <td><span style="visibility: hidden">0</span>3.2</td>
+              <td>23.7</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>23.4</td>
+              <td><span style="visibility: hidden">0</span>1.3</td>
+              <td>32.0</td>
+              <td><span style="visibility: hidden">0</span>7.7</td>
+              <td>33.7</td>
+              <td><span style="visibility: hidden">0</span>3.4</td>
+              <td>26.9</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/mlfoundations/open_flamingo"><b>OpenFlamingo-7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>2.4</td>
+              <td style="text-decoration: underline;">40.5</td>
+              <td><span style="visibility: hidden">0</span>2.1</td>
+              <td>38.9</td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td>27.7</td>
+              <td><span style="visibility: hidden">0</span>5.3</td>
+              <td>36.0</td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td>47.1</td>
+              <td><span style="visibility: hidden">0</span>3.1</td>
+              <td>38.4</td>
+            </tr>
+            <tr style="background-color: rgba(248, 149, 136, 0.25);">
+              <td style="text-align: left;"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/blip2"><b>BLIP-2-6.7B</b></a></td>
+              <td><span style="visibility: hidden">0</span>0.0</td>
+              <td><b>42.3</b></td>
+              <td><span style="visibility: hidden">0</span>1.1</td>
+              <td style="text-decoration: underline;">43.2</td>
+              <td><b><span style="visibility: hidden">0</span>4.3</b></td>
+              <td><b>48.9</b></td>
+              <td><span style="visibility: hidden">0</span>4.0</td>
+              <td><b>46.7</b></td>
+              <td><span style="visibility: hidden">0</span>5.8</td>
+              <td><b>51.0</b></td>
+              <td><span style="visibility: hidden">0</span>2.5</td>
+              <td><b>45.6</b></td>
+            </tr>
+          </table>
+          <!--/ GPT-4 Evaluation -->
+          <p> Overall results of different models on CODIS. The best-performing model in each category is <b>in-bold</b>, and the second best is <u>underlined</u>.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Leaderboard -->
+
+    <!--/ Examples -->
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3" id="examples">Examples</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/case_1.jpg" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/case_2.jpg" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/case_3.jpg" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/case_4.jpg" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/case_5.jpg" alt="grade-lv" width="60%"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Examples -->
+  </div>
+</section>
+<!--/ Evaluation -->
+
+<!-- Citation -->
+<section class="section" id="citation">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3 has-text-centered">Citation</h2>
+    <pre><code>
+      @article{luo2024codis,
+        title={CODIS: Benchmarking Context-Dependent Visual Comprehension for Multimodal Large Language Models},
+        author={Fuwen Luo and Chi Chen and Zihao Wan and Zhaolu Kang and Qidong Yan and Yingjie Li and Xiaolong Wang and Siyu Wang and Ziyue Wang and Xiaoyue Mi and Peng Li and Ning Ma and Maosong Sun and Yang Liu},
+        journal={arXiv preprint arXiv:2402.13607},
+        year={2024}
+      }
+    </code></pre>
+  </div>
+</section>
+<!--/ Citation -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>This website is adapted from <a href="https://mmmu-benchmark.github.io/">MMMU</a>, licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </div>
+      </div>
+    </div>
+</footer>
+<!--/ Footer -->
+
+<style>
+  #toggleButton {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #555555;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+  }
+  #toggleButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  td {
+      text-align: left;
+      padding: 8px;
+  }
+  td:hover {background-color: #ffffff;}
+</style>
+</body>
+</html>

@@ -1,0 +1,4944 @@
+[
+    {
+        "id": "000",
+        "image_id": "a87ff679a2.jpg",
+        "question": "Am I taking off or putting on my clothes?",
+        "context": {
+            "context_1": "My hand is moving upwards.",
+            "context_2": "My hand is moving downwards."
+        },
+        "answer": {
+            "answer_1": "Putting on my clothes.",
+            "answer_2": "Taking off my clothes."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "001",
+        "image_id": "e4da3b7fbb.jpg",
+        "question": "Am I opening or closing my bag?",
+        "context": {
+            "context_1": "I am pulling the zipper to the left.",
+            "context_2": "I am pulling the zipper to the right."
+        },
+        "answer": {
+            "answer_1": "Opening your bag.",
+            "answer_2": "Closing your bag."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "002",
+        "image_id": "1679091c5a.jpg",
+        "question": "Am I opening or closing the door?",
+        "context": {
+            "context_1": "I am going from right to left.",
+            "context_2": "I am going from left to right."
+        },
+        "answer": {
+            "answer_1": "Opening the door.",
+            "answer_2": "Closing the door."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "003",
+        "image_id": "c20ad4d76f.jpg",
+        "question": "Will my room be brighter or darker?",
+        "context": {
+            "context_1": "I am going to draw the curtain left.",
+            "context_2": "I am going to draw the curtain right."
+        },
+        "answer": {
+            "answer_1": "Darker.",
+            "answer_2": "Brighter."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "004",
+        "image_id": "aab3238922.jpg",
+        "question": "Is he going to read the previous page or the next page?",
+        "context": {
+            "context_1": "The book has 300 pages. The person is currently reading page 200. He flips the book from right to left from the perspective of the photographer.",
+            "context_2": "The book has 300 pages. The person is currently reading page 200. He flips the book from left to right from the perspective of the photographer."
+        },
+        "answer": {
+            "answer_1": "The previous page.",
+            "answer_2": "The next page."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "005",
+        "image_id": "aab3238922.jpg",
+        "question": "Is he going to read the previous page or the next page?",
+        "context": {
+            "context_1": "The book has 300 pages. The person is currently reading page 100. He flips the book from right to left from the perspective of the photographer.",
+            "context_2": "The book has 300 pages. The person is currently reading page 100. He flips the book from left to right from the perspective of the photographer."
+        },
+        "answer": {
+            "answer_1": "The next page.",
+            "answer_2": "The previous page."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "006",
+        "image_id": "8e296a067a.jpg",
+        "question": "Will the goods be moved onto the pickup truck?",
+        "context": {
+            "context_1": "The box is moving left.",
+            "context_2": "The box is moving right."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "007",
+        "image_id": "4e732ced34.jpg",
+        "question": "Does the cabins run clockwise or counterclockwise seeing from the sky?",
+        "context": {
+            "context_1": "My cabin is moving downwards.",
+            "context_2": "My cabin is moving upwards."
+        },
+        "answer": {
+            "answer_1": "Clockwise.",
+            "answer_2": "Counterclockwise."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "008",
+        "image_id": "4e732ced34.jpg",
+        "question": "Does the cabins run clockwise or counterclockwise seeing from the sky?",
+        "context": {
+            "context_1": "The person I see got on the cabins earlier than me.",
+            "context_2": "The person I see got on the cabins later than me."
+        },
+        "answer": {
+            "answer_1": "Clockwise.",
+            "answer_2": "Counterclockwise."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "009",
+        "image_id": "4e732ced34.jpg",
+        "question": "Is my cabin moving upwards or downwards?",
+        "context": {
+            "context_1": "The cabins run clockwise.",
+            "context_2": "The cabins run counterclockwise."
+        },
+        "answer": {
+            "answer_1": "Downwards.",
+            "answer_2": "Upwards."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "010",
+        "image_id": "33e75ff09d.jpg",
+        "question": "Is this roller coaster going up or down?",
+        "context": {
+            "context_1": "I heard noise of the roller coaster becoming louder when I took the photo.",
+            "context_2": "I heard noise of the roller coaster becoming softer when I took the photo."
+        },
+        "answer": {
+            "answer_1": "Down.",
+            "answer_2": "Up."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "011",
+        "image_id": "33e75ff09d.jpg",
+        "question": "Will the noise of roller coaster becoming softer or louder?",
+        "context": {
+            "context_1": "The roller coaster is going up.",
+            "context_2": "The roller coaster is going down."
+        },
+        "answer": {
+            "answer_1": "Softer.",
+            "answer_2": "Louder."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "012",
+        "image_id": "6ea9ab1baa.jpg",
+        "question": "Does the ferris wheel run clockwise or counterclockwise from the perspective of photographer?",
+        "context": {
+            "context_1": "The red capsule of the ferris wheel is going up.",
+            "context_2": "The red capsule of the ferris wheel is going down."
+        },
+        "answer": {
+            "answer_1": "Counterclockwise.",
+            "answer_2": "Clockwise."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "013",
+        "image_id": "6ea9ab1baa.jpg",
+        "question": "Is the red capsule going up or down?",
+        "context": {
+            "context_1": "The ferris wheel is going counterclockwise.",
+            "context_2": "The ferris wheel is going clockwise."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "014",
+        "image_id": "c16a5320fa.jpg",
+        "question": "Is the subway going in the same direction as I face?",
+        "context": {
+            "context_1": "The subway is arriving the platform.",
+            "context_2": "The subway is leaving the platform."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "015",
+        "image_id": "c16a5320fa.jpg",
+        "question": "Is the train cab we see at the front or at the back of the train?",
+        "context": {
+            "context_1": "The subway is arriving the platform.",
+            "context_2": "The subway is leaving the platform."
+        },
+        "answer": {
+            "answer_1": "At the front.",
+            "answer_2": "At the back."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "016",
+        "image_id": "c16a5320fa.jpg",
+        "question": "Is the train arriving or leaving the platform?",
+        "context": {
+            "context_1": "The subway is coming towards me.",
+            "context_2": "The subway is going away from me."
+        },
+        "answer": {
+            "answer_1": "Arriving the platform.",
+            "answer_2": "Leaving the platform."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "017",
+        "image_id": "c16a5320fa.jpg",
+        "question": "Is the train arriving or leaving the platform?",
+        "context": {
+            "context_1": "The train cab we see is at the front of the train.",
+            "context_2": "The train cab we see is at the back of the train."
+        },
+        "answer": {
+            "answer_1": "Arriving the platform.",
+            "answer_2": "Leaving the platform."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "018",
+        "image_id": "6364d3f0f4.jpg",
+        "question": "In which direction was this photo taken? East, west, north or south?",
+        "context": {
+            "context_1": "The plane is flying eastwards.",
+            "context_2": "The plane is flying westwards."
+        },
+        "answer": {
+            "answer_1": "North.",
+            "answer_2": "South."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "019",
+        "image_id": "6364d3f0f4.jpg",
+        "question": "Is the plane flying eastwards, westwards, southwards or northwards?",
+        "context": {
+            "context_1": "The photo is taken facing north.",
+            "context_2": "The photo is taken facing south."
+        },
+        "answer": {
+            "answer_1": "Eastwards.",
+            "answer_2": "Westwards."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "020",
+        "image_id": "182be0c5cd.jpg",
+        "question": "Is the mountain oriented in an east-west or a north-south direction?",
+        "context": {
+            "context_1": "The airplane is flying towards the northwest.",
+            "context_2": "The airplane is flying towards the southwest."
+        },
+        "answer": {
+            "answer_1": "North-south direction.",
+            "answer_2": "East-west direction."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "021",
+        "image_id": "182be0c5cd.jpg",
+        "question": "Is the plane flying eastwards, westwards, southwards or northwards?",
+        "context": {
+            "context_1": "The photo is taken facing north.",
+            "context_2": "The photo is taken facing south."
+        },
+        "answer": {
+            "answer_1": "Westwards.",
+            "answer_2": "Eastwards."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "022",
+        "image_id": "e369853df7.jpg",
+        "question": "Is the train travelling on the left track or on the right track?",
+        "context": {
+            "context_1": "The train is moving to the right.",
+            "context_2": "The train is moving to the left."
+        },
+        "answer": {
+            "answer_1": "Left track.",
+            "answer_2": "Right track."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "023",
+        "image_id": "e369853df7.jpg",
+        "question": "Is the train moving left or right?",
+        "context": {
+            "context_1": "The train is travelling on the left track.",
+            "context_2": "The train is travelling on the right track."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "024",
+        "image_id": "1c383cd30b.jpg",
+        "question": "Is the trolley approaching the photographer?",
+        "context": {
+            "context_1": "The girl in blue standing in the front of the trolley is me.",
+            "context_2": "The girl in blue standing at the back of the trolley is me."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "025",
+        "image_id": "1c383cd30b.jpg",
+        "question": "Is the girl in blue standing in the front or back of the trolley?",
+        "context": {
+            "context_1": "The trolley is approaching the photographer.",
+            "context_2": "The trolley is going away from the photographer."
+        },
+        "answer": {
+            "answer_1": "In the front.",
+            "answer_2": "In the back."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "026",
+        "image_id": "19ca14e7ea.jpg",
+        "question": "Is the behavior of the person beside the track in the photo dangerous?",
+        "context": {
+            "context_1": "The tram is approaching the photographer.",
+            "context_2": "The tram is moving away from the photographer."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "027",
+        "image_id": "19ca14e7ea.jpg",
+        "question": "Is the tram moving towards the photographer or away from the photographer?",
+        "context": {
+            "context_1": "The man beside the track went across the track before the tram arrived.",
+            "context_2": "The man beside the track went across the track after the tram arrived."
+        },
+        "answer": {
+            "answer_1": "Moving towards the photographer.",
+            "answer_2": "Moving away from the photographer."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "028",
+        "image_id": "a5bfc9e079.jpg",
+        "question": "What is the direction of migration? East, west, south or north?",
+        "context": {
+            "context_1": "The zebra migration picture was taken facing east.",
+            "context_2": "The zebra migration picture was taken facing west."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "029",
+        "image_id": "a5bfc9e079.jpg",
+        "question": "What is the direction of migration? East, west, south or north?",
+        "context": {
+            "context_1": "The zebras choose to cross the river to the west of the forest in the picture.",
+            "context_2": "The zebras choose to cross the river to the east of the forest in the picture."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "030",
+        "image_id": "a5771bce93.jpg",
+        "question": "Which direction are the zebras going to? East, west, south or north?",
+        "context": {
+            "context_1": "I am driving eastwards along the road. Zebras block my way.",
+            "context_2": "I am driving westwards along the road. Zebras block my way."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "031",
+        "image_id": "a5771bce93.jpg",
+        "question": "Which direction is the photographer facing? East, west, south or north?",
+        "context": {
+            "context_1": "The zebras are going east.",
+            "context_2": "The zebras are going west."
+        },
+        "answer": {
+            "answer_1": "North.",
+            "answer_2": "South."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "032",
+        "image_id": "d67d8ab4f4.jpg",
+        "question": "Where is the pen? Uphills or downhills?",
+        "context": {
+            "context_1": "I took the photo at the entrance of the pen when the sheep were going out.",
+            "context_2": "I took the photo at the entrance of the pen when the sheep were going back."
+        },
+        "answer": {
+            "answer_1": "Uphills.",
+            "answer_2": "Downhills."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "033",
+        "image_id": "d67d8ab4f4.jpg",
+        "question": "Are the sheep going out or going back?",
+        "context": {
+            "context_1": "The sheep pen is right in front of me.",
+            "context_2": "The sheep pen is right behind me."
+        },
+        "answer": {
+            "answer_1": "Going back.",
+            "answer_2": "Going out."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "034",
+        "image_id": "d645920e39.jpg",
+        "question": "Which direction are the horses going? East, west, south or north?",
+        "context": {
+            "context_1": "I was going east to the lake. The horses blocked my way.",
+            "context_2": "I was going west to the lake. The horses blocked my way."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "035",
+        "image_id": "d645920e39.jpg",
+        "question": "Which direction am I facing? East, west, south or north?",
+        "context": {
+            "context_1": "The horses were being driven to the mountain in the south to graze.",
+            "context_2": "The horses were being driven to the mountain in the north to graze."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "036",
+        "image_id": "3416a75f4c.jpg",
+        "question": "In which direction is the airplane in this picture flying? East, west, south or north?",
+        "context": {
+            "context_1": "I took this picture in the early morning.",
+            "context_2": "I took this picture in the late afternoon."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "037",
+        "image_id": "3416a75f4c.jpg",
+        "question": "Is the picture taken in the morning or in the afternoon?",
+        "context": {
+            "context_1": "The plane is flying west.",
+            "context_2": "The plane is flying east."
+        },
+        "answer": {
+            "answer_1": "In the afternoon.",
+            "answer_2": "In the morning."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "038",
+        "image_id": "a1d0c6e83f.jpg",
+        "question": "Is the ship going east, west, south or north?",
+        "context": {
+            "context_1": "The picture was taken yesterday morning.",
+            "context_2": "The picture was taken yesterday afternoon."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "039",
+        "image_id": "a1d0c6e83f.jpg",
+        "question": "Is the picture taken in the morning or in the afternoon?",
+        "context": {
+            "context_1": "The ship is going south.",
+            "context_2": "The ship is going north."
+        },
+        "answer": {
+            "answer_1": "In the morning.",
+            "answer_2": "In the afternoon."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "040",
+        "image_id": "17e62166fc.jpg",
+        "question": "Which direction were they going? East, west, south or north?",
+        "context": {
+            "context_1": "The sun had just risen.",
+            "context_2": "The sun was about to set."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "041",
+        "image_id": "17e62166fc.jpg",
+        "question": "Which direction were they going? East, west, south or north?",
+        "context": {
+            "context_1": "The people in the picture started their day on the beach.",
+            "context_2": "The people in the picture were going home because it was late."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "042",
+        "image_id": "f7177163c8.jpg",
+        "question": "Which direction am I facing? East, west, south or north?",
+        "context": {
+            "context_1": "I drove for a whole night and I am tired.",
+            "context_2": "I drove for a whole day and I am tired."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "043",
+        "image_id": "f7177163c8.jpg",
+        "question": "Can I turn at this crossroads when the traffic light is green?",
+        "context": {
+            "context_1": "I am driving my car. It's 6:00 a.m. and I am going northwards.",
+            "context_2": "I am driving my car. It's 6:00 p.m. and I am going northwards."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "044",
+        "image_id": "f7177163c8.jpg",
+        "question": "Can I turn at this crossroads when the traffic light is green?",
+        "context": {
+            "context_1": "I am driving my car. It's 6:00 a.m. and I am going southwards.",
+            "context_2": "I am driving my car. It's 6:00 p.m. and I am going southwards."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "045",
+        "image_id": "6c8349cc72.jpg",
+        "question": "What is the moving direction of the tide? East, west, south or north?",
+        "context": {
+            "context_1": "The tide is rising. The sun has just risen.",
+            "context_2": "The tide is receding. The sun has just risen."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "046",
+        "image_id": "6c8349cc72.jpg",
+        "question": "What is the moving direction of the tide? East, west, south or north?",
+        "context": {
+            "context_1": "The tide is rising. The sun is about to set.",
+            "context_2": "The tide is receding. The sun is about to set."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "047",
+        "image_id": "d9d4f495e8.jpg",
+        "question": "Are the people in the picture walking north or south?",
+        "context": {
+            "context_1": "The sun is rising now.",
+            "context_2": "The sun is setting now."
+        },
+        "answer": {
+            "answer_1": "North.",
+            "answer_2": "South."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "048",
+        "image_id": "d9d4f495e8.jpg",
+        "question": "Is it in the morning or in the afternoon?",
+        "context": {
+            "context_1": "The people are walking north.",
+            "context_2": "The people are walking south."
+        },
+        "answer": {
+            "answer_1": "In the morning.",
+            "answer_2": "In the afternoon."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "049",
+        "image_id": "67c6a1e7ce.jpg",
+        "question": "Is the photo taken in the morning or in the afternoon?",
+        "context": {
+            "context_1": "The bridge is to the north of me.",
+            "context_2": "The bridge is to the south of me."
+        },
+        "answer": {
+            "answer_1": "In the morning.",
+            "answer_2": "In the afternoon."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "050",
+        "image_id": "642e92efb7.jpg",
+        "question": "Which side of the picture is the north, left or right?",
+        "context": {
+            "context_1": "I went to Indonesia in June. This photo was taken at noon.",
+            "context_2": "I went to Indonesia in December. This photo was taken at noon."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "051",
+        "image_id": "35f4a8d465.jpg",
+        "question": "Is the rope extending or contracting?",
+        "context": {
+            "context_1": "The person in the picture is rising.",
+            "context_2": "The person in the picture is falling."
+        },
+        "answer": {
+            "answer_1": "Contracting.",
+            "answer_2": "Extending."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "052",
+        "image_id": "f033ab37c3.jpg",
+        "question": "Has the athlete hit the ball?",
+        "context": {
+            "context_1": "The ball is flying left.",
+            "context_2": "The ball is flying right."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "053",
+        "image_id": "43ec517d68.jpg",
+        "question": "Is the person going to catch or has she thrown the frisbee?",
+        "context": {
+            "context_1": "The frisbee is flying left.",
+            "context_2": "The frisbee is flying right."
+        },
+        "answer": {
+            "answer_1": "She has thrown the frisbee.",
+            "answer_2": "She is going to catch the frisbee."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "054",
+        "image_id": "9778d5d219.jpg",
+        "question": "Is the athlete in blue about to catch the ball or has he just passed the ball?",
+        "context": {
+            "context_1": "The ball is flying towards the left.",
+            "context_2": "The ball is flying towards the right."
+        },
+        "answer": {
+            "answer_1": "The athlete has just passed the ball.",
+            "answer_2": "The athlete is about to catch the ball."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "055",
+        "image_id": "fe9fc289c3.jpg",
+        "question": "Has the person hit the ball?",
+        "context": {
+            "context_1": "The ball is going downwards.",
+            "context_2": "The ball is going upwards."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "056",
+        "image_id": "7647966b73.jpg",
+        "question": "When was this photo probably taken, the first or second half of the year?",
+        "context": {
+            "context_1": "I took this photo when I was in Australia.",
+            "context_2": "I took this photo when I was in America."
+        },
+        "answer": {
+            "answer_1": "First half.",
+            "answer_2": "Second half."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "057",
+        "image_id": "8613985ec4.jpg",
+        "question": "What was the season in my country at that time? Winter or summer?",
+        "context": {
+            "context_1": "I'm an American and this is a photo I took on a trip to Italy.",
+            "context_2": "I'm an American and this is a photo I took on a trip to Australia."
+        },
+        "answer": {
+            "answer_1": "Winter.",
+            "answer_2": "Summer."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "058",
+        "image_id": "98dce83da5.jpg",
+        "question": "Am I more likely to be on my winter vacation or summer vacation?",
+        "context": {
+            "context_1": "After studying in New York for a semester, I went to England for my holiday.",
+            "context_2": "After studying in New York for a semester, I went to Australia for my holiday."
+        },
+        "answer": {
+            "answer_1": "Summer vacation.",
+            "answer_2": "Winter vacation."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "059",
+        "image_id": "98dce83da5.jpg",
+        "question": "Am I more likely to be on my winter vacation or summer vacation?",
+        "context": {
+            "context_1": "After studying in Sydney for a semester, I went to America for my holiday.",
+            "context_2": "After studying in Sydney for a semester, I went to New Zealand for my holiday."
+        },
+        "answer": {
+            "answer_1": "Winter vacation.",
+            "answer_2": "Summer vacation."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "060",
+        "image_id": "5ef059938b.jpg",
+        "question": "Which dot is at the front? The blue one or the red one?",
+        "context": {
+            "context_1": "This is a cube framework. I am observing the object from left.",
+            "context_2": "This is a cube framework. I am observing the object from right."
+        },
+        "answer": {
+            "answer_1": "The blue one.",
+            "answer_2": "The red one."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "061",
+        "image_id": "5ef059938b.jpg",
+        "question": "Which dot is at the front? The blue one or the red one?",
+        "context": {
+            "context_1": "This is a cube framework. I am observing the object from below.",
+            "context_2": "This is a cube framework. I am observing the object from above."
+        },
+        "answer": {
+            "answer_1": "The blue one.",
+            "answer_2": "The red one."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "062",
+        "image_id": "9b8619251a.jpg",
+        "question": "Is the bag being put into the truck or being taken off the truck?",
+        "context": {
+            "context_1": "The bag of grain is moving upwards.",
+            "context_2": "The bag of grain is moving downwards."
+        },
+        "answer": {
+            "answer_1": "Being put into the truck.",
+            "answer_2": "Being taken off the truck."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "063",
+        "image_id": "65ded5353c.jpg",
+        "question": "Will the box be in the car or out of the car?",
+        "context": {
+            "context_1": "The courier is putting down the box.",
+            "context_2": "The courier is picking up the box."
+        },
+        "answer": {
+            "answer_1": "Out of the car.",
+            "answer_2": "In the car."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "064",
+        "image_id": "9fc3d7152b.jpg",
+        "question": "Is the bucket more likely to be put on the shelf or taken off the shelf?",
+        "context": {
+            "context_1": "The man on the left is picking up the bucket.",
+            "context_2": "The man on the left is putting down the bucket."
+        },
+        "answer": {
+            "answer_1": "Being put on the shelf.",
+            "answer_2": "Being taken off the shelf."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "065",
+        "image_id": "7f1de29e6d.jpg",
+        "question": "Is he opening or closing the iron box?",
+        "context": {
+            "context_1": "His left hand is moving right from the perspective of the photographer.",
+            "context_2": "His left hand is moving left from the perspective of the photographer."
+        },
+        "answer": {
+            "answer_1": "Opening.",
+            "answer_2": "Closing."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "066",
+        "image_id": "37a749d808.jpg",
+        "question": "From the perspective of my picture, is the ferris wheel spinning clockwise or counterclockwise?",
+        "context": {
+            "context_1": "Cars of the ferris wheel shown in the picture are moving up.",
+            "context_2": "Cars of the ferris wheel shown in the picture are moving down."
+        },
+        "answer": {
+            "answer_1": "Clockwise.",
+            "answer_2": "Counterclockwise."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "067",
+        "image_id": "37a749d808.jpg",
+        "question": "Are the cars in the picture going up or down?",
+        "context": {
+            "context_1": "From the perspective of the picture I took, the Ferris wheel is spinning clockwise.",
+            "context_2": "From the perspective of the picture I took, the Ferris wheel is spinning counterclockwise."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "068",
+        "image_id": "b3e3e393c7.jpg",
+        "question": "Is it swinging left or right from the perspective of the photographer?",
+        "context": {
+            "context_1": "The pendulum ride is going downwards.",
+            "context_2": "The pendulum ride is going upwards."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "069",
+        "image_id": "b3e3e393c7.jpg",
+        "question": "Is it going upwards or downwards?",
+        "context": {
+            "context_1": "From the perspective of the photographer, the pendulum ride is swinging to the left.",
+            "context_2": "From the perspective of the photographer, the pendulum ride is swinging to the right."
+        },
+        "answer": {
+            "answer_1": "Upwards.",
+            "answer_2": "Downwards."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "070",
+        "image_id": "0640966322.jpg",
+        "question": "Which direction are the horses heading, east or west?",
+        "context": {
+            "context_1": "I took this picture with the sun coming up.",
+            "context_2": "I took this picture as the sun was going down."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "071",
+        "image_id": "140f6969d5.jpg",
+        "question": "Which direction is my dog heading, east or west?",
+        "context": {
+            "context_1": "I'm facing east to take a picture of my dog.",
+            "context_2": "I'm facing west to take a picture of my dog."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "072",
+        "image_id": "b73ce398c3.jpg",
+        "question": "Is the tram going up or down?",
+        "context": {
+            "context_1": "I watched the trolley get closer to me and took the picture.",
+            "context_2": "I watched the trolley get away from me and took the picture."
+        },
+        "answer": {
+            "answer_1": "up.",
+            "answer_2": "Down."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "073",
+        "image_id": "b73ce398c3.jpg",
+        "question": "Is it moving towards me or away from me?",
+        "context": {
+            "context_1": "The tram is going up.",
+            "context_2": "The tram is going down."
+        },
+        "answer": {
+            "answer_1": "Towards me.",
+            "answer_2": "Away from me."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "074",
+        "image_id": "bd4c9ab730.jpg",
+        "question": "Is the tram moving closer or further away from me?",
+        "context": {
+            "context_1": "The old woman in the tram was facing the front of the tram.",
+            "context_2": "The old woman in the tram was facing the rear of the tram."
+        },
+        "answer": {
+            "answer_1": "Approach.",
+            "answer_2": "Away from you."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "075",
+        "image_id": "fa7cdfad1a.jpg",
+        "question": "Is it morning or afternoon at this point in the photo?",
+        "context": {
+            "context_1": "In the photo, my girlfriend is giving a heart to the east.",
+            "context_2": "In the photo, my girlfriend is giving a heart to the west."
+        },
+        "answer": {
+            "answer_1": "Morning.",
+            "answer_2": "Afternoon."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "076",
+        "image_id": "5878a7ab84.jpg",
+        "question": "Is it morning or afternoon at this point?",
+        "context": {
+            "context_1": "I took this picture facing west.",
+            "context_2": "I took this picture facing east."
+        },
+        "answer": {
+            "answer_1": "Morning.",
+            "answer_2": "Afternoon."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "077",
+        "image_id": "38af86134b.jpg",
+        "question": "Has the player in white already hit the ball?",
+        "context": {
+            "context_1": "The volleyball is moving left.",
+            "context_2": "The volleyball is moving right."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "078",
+        "image_id": "96da2f590c.jpg",
+        "question": "Which way does the ball go, left or right?",
+        "context": {
+            "context_1": "The ball flew out towards the east in the early afternoon.",
+            "context_2": "The ball flew out towards the west in the late afternoon."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "079",
+        "image_id": "96da2f590c.jpg",
+        "question": "Which way does the ball go, left or right?",
+        "context": {
+            "context_1": "The ball flew out towards the east in the early morning.",
+            "context_2": "The ball flew out towards the west in the late morning."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "080",
+        "image_id": "8f85517967.jpg",
+        "question": "Am I moving forward or backward?",
+        "context": {
+            "context_1": "I am moving left.",
+            "context_2": "I am moving right."
+        },
+        "answer": {
+            "answer_1": "Forward.",
+            "answer_2": "Backward."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "081",
+        "image_id": "cedebb6e87.jpg",
+        "question": "When did I probably travel, the first or second half of the year?",
+        "context": {
+            "context_1": "I took this picture when I was traveling in Japan with my daughter.",
+            "context_2": "I took this picture when I was traveling in New Zealand with my daughter."
+        },
+        "answer": {
+            "answer_1": "The first half.",
+            "answer_2": "The second half."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "082",
+        "image_id": "eecca5b636.jpg",
+        "question": "What is it more likely to do in the picture? Hibernating or resting?",
+        "context": {
+            "context_1": "I took this photo in December in America.",
+            "context_2": "I took this photo in December in Australia."
+        },
+        "answer": {
+            "answer_1": "Hibernating.",
+            "answer_2": "Resting."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "083",
+        "image_id": "eecca5b636.jpg",
+        "question": "What is it more likely to do in the picture? Hibernating or resting?",
+        "context": {
+            "context_1": "I took this photo in June in America.",
+            "context_2": "I took this photo in June in Australia."
+        },
+        "answer": {
+            "answer_1": "Resting.",
+            "answer_2": "Hibernating."
+        },
+        "category": "Location and Orientation"
+    },
+    {
+        "id": "084",
+        "image_id": "c4ca4238a0.jpg",
+        "question": "What was she doing? Greeting me or saying goodbye to me?",
+        "context": {
+            "context_1": "I watched sunrise with my sister yesterday.",
+            "context_2": "I watched sunset with my sister yesterday."
+        },
+        "answer": {
+            "answer_1": "Saying goodbye to me.",
+            "answer_2": "Greeting me."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "085",
+        "image_id": "c81e728d9d.jpg",
+        "question": "What were they doing? Greeting or saying goodbye to each other?",
+        "context": {
+            "context_1": "They separated in summer and met again in winter.",
+            "context_2": "They separated last winter and met again this summer."
+        },
+        "answer": {
+            "answer_1": "Greeting.",
+            "answer_2": "Saying goodbye."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "086",
+        "image_id": "eccbc87e4b.jpg",
+        "question": "Is the man in the picture greeting or saying goodbye to her?",
+        "context": {
+            "context_1": "A lady is approaching the store.",
+            "context_2": "A lady has taken her dinner and is walking away from the store."
+        },
+        "answer": {
+            "answer_1": "Greeting her.",
+            "answer_2": "Saying goodbye to her."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "087",
+        "image_id": "eccbc87e4b.jpg",
+        "question": "From the perspective of the photographer, is the customer currently going from left to right or going from right to left?",
+        "context": {
+            "context_1": "The customer is about to arrive. The clerk is greeting him.",
+            "context_2": "The customer has just left. The clerk is saying goodbye to him."
+        },
+        "answer": {
+            "answer_1": "From right to left.",
+            "answer_2": "From left to right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "088",
+        "image_id": "a87ff679a2.jpg",
+        "question": "What is the moving direction of my hand? Up or down?",
+        "context": {
+            "context_1": "I am taking off my clothes.",
+            "context_2": "I am putting on my clothes."
+        },
+        "answer": {
+            "answer_1": "Down.",
+            "answer_2": "Up."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "089",
+        "image_id": "e4da3b7fbb.jpg",
+        "question": "Am I pulling the zipper to the left or to the right?",
+        "context": {
+            "context_1": "I'm opening my bag.",
+            "context_2": "I'm closing my bag."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "090",
+        "image_id": "1679091c5a.jpg",
+        "question": "Am I going from left to right or from right to left?",
+        "context": {
+            "context_1": "I am opening the door.",
+            "context_2": "I am closing the door."
+        },
+        "answer": {
+            "answer_1": "From right to left.",
+            "answer_2": "From left to right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "091",
+        "image_id": "1679091c5a.jpg",
+        "question": "Am I going from left to right or from right to left?",
+        "context": {
+            "context_1": "I am arriving home.",
+            "context_2": "I am leaving home."
+        },
+        "answer": {
+            "answer_1": "From right to left.",
+            "answer_2": "From left to right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "092",
+        "image_id": "8f14e45fce.jpg",
+        "question": "Am I moving the counterweight from left to right or from right to left?",
+        "context": {
+            "context_1": "I am reducing the number of counterweight pieces from 4 to 3.",
+            "context_2": "I am increasing the number of counterweight pieces from 3 to 4."
+        },
+        "answer": {
+            "answer_1": "From right to left.",
+            "answer_2": "From left to right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "093",
+        "image_id": "c9f0f895fb.jpg",
+        "question": "Are we more likely to moving the bike upwards or downwards?",
+        "context": {
+            "context_1": "We waited for a long time and our bus arrived.",
+            "context_2": "We have just reached our destination."
+        },
+        "answer": {
+            "answer_1": "Upwards.",
+            "answer_2": "Downwards."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "094",
+        "image_id": "c9f0f895fb.jpg",
+        "question": "Is the bike moving left or right?",
+        "context": {
+            "context_1": "I'm helping my friend carry his bike to his car.",
+            "context_2": "I'm helping my friend get his bike off my car."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "095",
+        "image_id": "45c48cce2e.jpg",
+        "question": "Am I putting on or taking off my headset?",
+        "context": {
+            "context_1": "I have finished my online class and I am going to playing games.",
+            "context_2": "I have just played games and I am going to have my online class."
+        },
+        "answer": {
+            "answer_1": "Putting on your headset.",
+            "answer_2": "Taking off your headset."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "096",
+        "image_id": "d3d9446802.jpg",
+        "question": "Am I opening or closing the door?",
+        "context": {
+            "context_1": "My friend is saying hello to me across the street.",
+            "context_2": "My friend is saying goodbye to me across the street."
+        },
+        "answer": {
+            "answer_1": "Closing the door.",
+            "answer_2": "Opening the door."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "097",
+        "image_id": "d3d9446802.jpg",
+        "question": "Am I opening or closing the door?",
+        "context": {
+            "context_1": "I just hailed a taxi.",
+            "context_2": "I just arrived at my destination."
+        },
+        "answer": {
+            "answer_1": "Opening the door.",
+            "answer_2": "Closing the door."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "098",
+        "image_id": "6512bd43d9.jpg",
+        "question": "What is the man in the image doing with his hands?",
+        "context": {
+            "context_1": "The man is going to leave the car.",
+            "context_2": "The man is going to drive the car."
+        },
+        "answer": {
+            "answer_1": "Unbuckling the seatbelt.",
+            "answer_2": "Fasten the seatbelt."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "099",
+        "image_id": "c20ad4d76f.jpg",
+        "question": "Should I draw the curtain left or right?",
+        "context": {
+            "context_1": "I have just got up and want to enjoy more sunshine.",
+            "context_2": "I am going to take a nap."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "100",
+        "image_id": "c20ad4d76f.jpg",
+        "question": "Should I draw the curtain left or right?",
+        "context": {
+            "context_1": "I want my room to be darker.",
+            "context_2": "I want my room to be brighter."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "101",
+        "image_id": "c51ce410c1.jpg",
+        "question": "Will the man lift up or place down his hands?",
+        "context": {
+            "context_1": "The man has just finished loading the goods.",
+            "context_2": "The man is going to unload the goods."
+        },
+        "answer": {
+            "answer_1": "Lift up his hands.",
+            "answer_2": "Place down his hands."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "102",
+        "image_id": "c51ce410c1.jpg",
+        "question": "Will the man lift up or place down his hands?",
+        "context": {
+            "context_1": "The man is opening the door.",
+            "context_2": "The man is closing the door."
+        },
+        "answer": {
+            "answer_1": "Place down his hands.",
+            "answer_2": "Lift up his hands."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "103",
+        "image_id": "aab3238922.jpg",
+        "question": "From the perspective of the photographer, will he flip the book from left to right or from right to left?",
+        "context": {
+            "context_1": "The book has 300 pages. The person is currently reading page 200. He wants to read the previous page.",
+            "context_2": "The book has 300 pages. The person is currently reading page 200. He wants to read the next page."
+        },
+        "answer": {
+            "answer_1": "From right to left.",
+            "answer_2": "From left to right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "104",
+        "image_id": "aab3238922.jpg",
+        "question": "From the perspective of the photographer, will he flip the book from left to right or from right to left?",
+        "context": {
+            "context_1": "The book has 300 pages. The person is currently reading page 100. He wants to read the previous page.",
+            "context_2": "The book has 300 pages. The person is currently reading page 100. He wants to read the next page."
+        },
+        "answer": {
+            "answer_1": "From left to right.",
+            "answer_2": "From right to left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "105",
+        "image_id": "9bf31c7ff0.jpg",
+        "question": "Is she pulling or pushing?",
+        "context": {
+            "context_1": "She is going to find something.",
+            "context_2": "She has found the things she wants."
+        },
+        "answer": {
+            "answer_1": "Pulling.",
+            "answer_2": "Pushing."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "106",
+        "image_id": "9bf31c7ff0.jpg",
+        "question": "Is the drawer moving left or right from the perspective of the photographer?",
+        "context": {
+            "context_1": "She is pulling the drawer.",
+            "context_2": "She is pushing the drawer."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "107",
+        "image_id": "c74d97b01e.jpg",
+        "question": "Am I opening or closing the door?",
+        "context": {
+            "context_1": "I am taking all the bowls out of the cupboard.",
+            "context_2": "I am putting bowls into the empty cupboard."
+        },
+        "answer": {
+            "answer_1": "Opening the door.",
+            "answer_2": "Closing the door."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "108",
+        "image_id": "c74d97b01e.jpg",
+        "question": "Am I opening or closing the door?",
+        "context": {
+            "context_1": "I am taking a bottle of wine out of the cupboard.",
+            "context_2": "I am putting a bottle of wine into the cupboard."
+        },
+        "answer": {
+            "answer_1": "Closing the door.",
+            "answer_2": "Opening the door."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "109",
+        "image_id": "70efdf2ec9.jpg",
+        "question": "Is the man picking the pot up or putting it down?",
+        "context": {
+            "context_1": "The dishes are cooked.",
+            "context_2": "The dish is going to be cooked."
+        },
+        "answer": {
+            "answer_1": "Picking the pot up.",
+            "answer_2": "Putting the pot down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "110",
+        "image_id": "6f4922f455.jpg",
+        "question": "Is the man pulling or pushing the box?",
+        "context": {
+            "context_1": "The expressman is at a customer's house, delivering goods.",
+            "context_2": "The expressman is at the logistics center, loading goods."
+        },
+        "answer": {
+            "answer_1": "Pulling.",
+            "answer_2": "Pushing."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "111",
+        "image_id": "6f4922f455.jpg",
+        "question": "Is the man putting the box into the car or taking the box out of the car?",
+        "context": {
+            "context_1": "The man is pulling the box.",
+            "context_2": "The man is pushing the box."
+        },
+        "answer": {
+            "answer_1": "Taking the box out of the car.",
+            "answer_2": "Putting the box into the car."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "112",
+        "image_id": "1f0e3dad99.jpg",
+        "question": "Is the file in the picture handed to the person on the left or the person on the right?",
+        "context": {
+            "context_1": "The employee is passing the file to the leader for signature in the leader's office.",
+            "context_2": "The leader, sitting in his office, is passing his employee the faulty file."
+        },
+        "answer": {
+            "answer_1": "The person on the left.",
+            "answer_2": "The person on the right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "113",
+        "image_id": "1f0e3dad99.jpg",
+        "question": "Is the file in the picture handed to the person on the left or the person on the right?",
+        "context": {
+            "context_1": "My leg hurt yesterday. My colleague is giving me the files I wanted.",
+            "context_2": "My leg hurt yesterday. My colleague is helping me deliver some files."
+        },
+        "answer": {
+            "answer_1": "The person on the left.",
+            "answer_2": "The person on the right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "114",
+        "image_id": "98f1370821.jpg",
+        "question": "Which direction is he going to jump? Forward or backward?",
+        "context": {
+            "context_1": "Below the bridge is the fast-flowing river. He feels frightened and decides to return to the bridge.",
+            "context_2": "Below the bridge is the fast-flowing river. He is ready to push the envelope and jump off the bridge."
+        },
+        "answer": {
+            "answer_1": "Forward.",
+            "answer_2": "Backward."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "115",
+        "image_id": "3c59dc048e.jpg",
+        "question": "Should I go to the other side?",
+        "context": {
+            "context_1": "I'm at the car wash, and I am going to wash the left doors.",
+            "context_2": "I'm at the car wash, and I am going to wash the right doors."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "116",
+        "image_id": "b6d767d2f8.jpg",
+        "question": "Who will hold it, the person on the left or on the right of the picture?",
+        "context": {
+            "context_1": "I took the photo when I was buying fried dough stick.",
+            "context_2": "I took the photo when I was selling fried dough sticks."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "117",
+        "image_id": "37693cfc74.jpg",
+        "question": "Am I going to drop the stone down?",
+        "context": {
+            "context_1": "I am collecting cobblestones. I am not satisfied with this one.",
+            "context_2": "I am collecting cobblestones. I am satisfied with this one."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "118",
+        "image_id": "1ff1de7740.jpg",
+        "question": "Am I going to drop the flower down?",
+        "context": {
+            "context_1": "I am collecting flowers. I am satisfied with this one.",
+            "context_2": "I am collecting flowers. I am not satisfied with this one."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "119",
+        "image_id": "8e296a067a.jpg",
+        "question": "Will the goods be moved onto the pickup truck?",
+        "context": {
+            "context_1": "My shop assistant in blue is delivering goods.",
+            "context_2": "My shop assistant in blue is taking goods."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "120",
+        "image_id": "02e74f10e0.jpg",
+        "question": "Is my shop going to be closed or open?",
+        "context": {
+            "context_1": "I just flipped the sign.",
+            "context_2": "I am going to flip the sign."
+        },
+        "answer": {
+            "answer_1": "Open.",
+            "answer_2": "Closed."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "121",
+        "image_id": "02e74f10e0.jpg",
+        "question": "Is my shop going to be closed or open?",
+        "context": {
+            "context_1": "I am putting the sign here.",
+            "context_2": "I am going to take the sign off."
+        },
+        "answer": {
+            "answer_1": "Open.",
+            "answer_2": "Closed."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "122",
+        "image_id": "02e74f10e0.jpg",
+        "question": "Should I flip the sign or keep the position of the sign unchanged?",
+        "context": {
+            "context_1": "My shop is going to be open.",
+            "context_2": "My shop is going to be closed."
+        },
+        "answer": {
+            "answer_1": "Keep the sign unchanged.",
+            "answer_2": "Flip the sign."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "123",
+        "image_id": "6ea9ab1baa.jpg",
+        "question": "Does the ferris wheel run clockwise or counterclockwise from the perspective of photographer?",
+        "context": {
+            "context_1": "My friend is in the red capsule of the ferris wheel. He has just started his ride.",
+            "context_2": "My friend is in the red capsule of the ferris wheel. He is about to end his ride."
+        },
+        "answer": {
+            "answer_1": "Counterclockwise.",
+            "answer_2": "Clockwise."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "124",
+        "image_id": "6ea9ab1baa.jpg",
+        "question": "Is the red capsule going up or down?",
+        "context": {
+            "context_1": "People in the green capsule get on the ferris wheel earlier than people in the red capsule.",
+            "context_2": "People in the green capsule get on the ferris wheel later than people in the red capsule."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "125",
+        "image_id": "34173cb38f.jpg",
+        "question": "Is the train entering or leaving the station?",
+        "context": {
+            "context_1": "This train enters the station at 10:30 and leaves at 10:40.",
+            "context_2": "This train enters the station at 10:20 and leaves at 10:30."
+        },
+        "answer": {
+            "answer_1": "Entering the station.",
+            "answer_2": "Leaving the station."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "126",
+        "image_id": "fc490ca45c.jpg",
+        "question": "Please express the current time in the 24-hour format. Precise to minute level.",
+        "context": {
+            "context_1": "There aren't many people in the game arcade in the morning.",
+            "context_2": "There are many people in the game arcade in the evening."
+        },
+        "answer": {
+            "answer_1": "7:23 (answers from 7:22 to 7:24 are all right).",
+            "answer_2": "19:23 (answers from 19:22 to 19:24 are all right)."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "127",
+        "image_id": "fc490ca45c.jpg",
+        "question": "Please express the current time in the 24-hour format. Precise to minute level.",
+        "context": {
+            "context_1": "The game arcade opens from 10:00 a.m. to 11:00 p.m. Now it is closed.",
+            "context_2": "The game arcade opens from 10:00 a.m. to 11:00 p.m. Now it is opened."
+        },
+        "answer": {
+            "answer_1": "7:23 (answers from 7:22 to 7:24 are all right).",
+            "answer_2": "19:23 (answers from 19:22 to 19:24 are all right)."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "128",
+        "image_id": "3295c76acb.jpg",
+        "question": "Is the train currently delayed?",
+        "context": {
+            "context_1": "The train is supposed to leave at 3:05.",
+            "context_2": "The train is supposed to leave at 3:10."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "129",
+        "image_id": "735b90b456.jpg",
+        "question": "Please tell me what time it is on a 24-hour schedule. Precise to minute level.",
+        "context": {
+            "context_1": "Early in the morning, I sailed out to work.",
+            "context_2": "It's at the end of a busy day, and I'm ready to return."
+        },
+        "answer": {
+            "answer_1": "8:12 (answers from 8:11 to 8:13 are all right).",
+            "answer_2": "20:12 (answers from 20:11 to 20:13 are all right)."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "130",
+        "image_id": "735b90b456.jpg",
+        "question": "Please tell me what time it is on a 24-hour schedule. Precise to minute level.",
+        "context": {
+            "context_1": "The sun has just risen.",
+            "context_2": "The sun is about to set."
+        },
+        "answer": {
+            "answer_1": "8:12 (answers from 8:11 to 8:13 are all right).",
+            "answer_2": "20:12 (answers from 20:11 to 20:13 are all right)."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "131",
+        "image_id": "a3f390d88e.jpg",
+        "question": "Please tell me what time it is on a 24-hour schedule. Precise to minute level.",
+        "context": {
+            "context_1": "I am visiting here this morning.",
+            "context_2": "It's late at night and there are few people here."
+        },
+        "answer": {
+            "answer_1": "10:20 (answers from 10:18 to 10:20 are all right).",
+            "answer_2": "22:20 (answers from 22:18 to 22:20 are all right)."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "132",
+        "image_id": "a3f390d88e.jpg",
+        "question": "Please tell me what time it is on a 24-hour schedule. Precise to minute level.",
+        "context": {
+            "context_1": "The door in the middle opens from 10:00 a.m. to 10:00 p.m. everyday.",
+            "context_2": "The door in the middle opens from 11:00 a.m. to 11:00 p.m. everyday."
+        },
+        "answer": {
+            "answer_1": "22:20 (answers from 22:18 to 22:20 are all right).",
+            "answer_2": "10:20 (answers from 10:18 to 10:20 are all right)."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "133",
+        "image_id": "35f4a8d465.jpg",
+        "question": "Is the person in the picture rising or falling?",
+        "context": {
+            "context_1": "The rope is extending.",
+            "context_2": "The rope is contracting."
+        },
+        "answer": {
+            "answer_1": "Falling.",
+            "answer_2": "Rising."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "134",
+        "image_id": "f033ab37c3.jpg",
+        "question": "Which direction is the ball flying towards according to the picture? Left or right?",
+        "context": {
+            "context_1": "The athlete has just hit the ball.",
+            "context_2": "The athlete is about to hit the ball."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "135",
+        "image_id": "43ec517d68.jpg",
+        "question": "Which way is the frisbee flying? Left or right?",
+        "context": {
+            "context_1": "The person in the picture has just thrown a frisbee.",
+            "context_2": "The person in the picture is about to catch a frisbee."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "136",
+        "image_id": "9778d5d219.jpg",
+        "question": "Which direction is the ball flying towards in the picture? Left or right?",
+        "context": {
+            "context_1": "The athlete in blue has just passed the ball.",
+            "context_2": "The athlete in blue is about to catch the ball."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "137",
+        "image_id": "fe9fc289c3.jpg",
+        "question": "Which direction is the ball flying towards in the picture? Up or down?",
+        "context": {
+            "context_1": "The person has just hit the ball.",
+            "context_2": "The person is about to hit the ball."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "138",
+        "image_id": "7647966b73.jpg",
+        "question": "Where was the photo probably taken, in the southern or northern hemisphere?",
+        "context": {
+            "context_1": "I took this photo in October.",
+            "context_2": "I took this photo in April."
+        },
+        "answer": {
+            "answer_1": "In the northern hemisphere.",
+            "answer_2": "In the southern hemisphere."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "139",
+        "image_id": "8613985ec4.jpg",
+        "question": "Where was the photo probably taken, in the southern or northern hemisphere?",
+        "context": {
+            "context_1": "I took this photo in December.",
+            "context_2": "I took this photo in June."
+        },
+        "answer": {
+            "answer_1": "In the northern hemisphere.",
+            "answer_2": "In the southern hemisphere."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "140",
+        "image_id": "54229abfcf.jpg",
+        "question": "Is the photo more likely taken in the southern or northern hemisphere?",
+        "context": {
+            "context_1": "I went travelling in June and took this photo.",
+            "context_2": "I went travelling in December and took this photo."
+        },
+        "answer": {
+            "answer_1": "Northern Hemisphere.",
+            "answer_2": "Southern Hemisphere."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "141",
+        "image_id": "92cc227532.jpg",
+        "question": "Was the photo more likely to be taken in the southern hemisphere or the northern hemisphere?",
+        "context": {
+            "context_1": "I took this photo on a trip in December.",
+            "context_2": "I took this photo on a trip in June."
+        },
+        "answer": {
+            "answer_1": "Northern hemisphere country.",
+            "answer_2": "Southern hemisphere country."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "142",
+        "image_id": "069059b7ef.jpg",
+        "question": "From my friend's point of view, is she zipping left or right?",
+        "context": {
+            "context_1": "My friend is opening her bag.",
+            "context_2": "My friend is closing her bag."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "143",
+        "image_id": "069059b7ef.jpg",
+        "question": "From my perspective, is she zipping left or right?",
+        "context": {
+            "context_1": "My friend is opening her bag.",
+            "context_2": "My friend is closing her bag."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "144",
+        "image_id": "ec5decca5e.jpg",
+        "question": "Is his left hand moving up or down?",
+        "context": {
+            "context_1": "My friend is opening his bag.",
+            "context_2": "My friend is closing his bag."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "145",
+        "image_id": "76dc611d6e.jpg",
+        "question": "Is he pushing or pulling the gate?",
+        "context": {
+            "context_1": "The butler is closing the gate.",
+            "context_2": "The butler is opening the gate."
+        },
+        "answer": {
+            "answer_1": "Pushing.",
+            "answer_2": "Pulling."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "146",
+        "image_id": "76dc611d6e.jpg",
+        "question": "Is he opening or closing the gate?",
+        "context": {
+            "context_1": "The butler is pushing the gate.",
+            "context_2": "The butler is pulling the gate."
+        },
+        "answer": {
+            "answer_1": "Closing the gate.",
+            "answer_2": "Opening the gate."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "147",
+        "image_id": "76dc611d6e.jpg",
+        "question": "Is he pushing or pulling the gate?",
+        "context": {
+            "context_1": "The butler is going to exit the gate.",
+            "context_2": "The butler just entered the gate."
+        },
+        "answer": {
+            "answer_1": "Pulling the gate.",
+            "answer_2": "Pushing the gate."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "148",
+        "image_id": "d1f491a404.jpg",
+        "question": "Is he pushing or pulling the door?",
+        "context": {
+            "context_1": "My friend is closing the door.",
+            "context_2": "My friend is opening the door."
+        },
+        "answer": {
+            "answer_1": "Pushing the door.",
+            "answer_2": "Pulling the door."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "149",
+        "image_id": "d1f491a404.jpg",
+        "question": "Is he opening or closing the door?",
+        "context": {
+            "context_1": "My friend is pushing the door.",
+            "context_2": "My friend is pulling the door."
+        },
+        "answer": {
+            "answer_1": "Closing the door.",
+            "answer_2": "Opening the door."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "150",
+        "image_id": "9b8619251a.jpg",
+        "question": "Which of the people in the picture will release the bag first, the person at the top or the person at the bottom?",
+        "context": {
+            "context_1": "The bag of grain needs to be put into the truck.",
+            "context_2": "The bag of grain needs to be taken off the truck."
+        },
+        "answer": {
+            "answer_1": "At the bottom.",
+            "answer_2": "At the top."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "151",
+        "image_id": "1afa34a7f9.jpg",
+        "question": "Is the man on the right picking up the box out of the car or putting down the box into the car?",
+        "context": {
+            "context_1": "The courier is giving packages to the receiver.",
+            "context_2": "The courier is gathering packages from the sender."
+        },
+        "answer": {
+            "answer_1": "Picking up.",
+            "answer_2": "Putting down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "152",
+        "image_id": "1afa34a7f9.jpg",
+        "question": "Will the box be in the car or out of the car?",
+        "context": {
+            "context_1": "The courier is putting down the box.",
+            "context_2": "The courier is picking up the box."
+        },
+        "answer": {
+            "answer_1": "In the car.",
+            "answer_2": "Out of the car."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "153",
+        "image_id": "65ded5353c.jpg",
+        "question": "Is the man on the right picking up the box out of the car or putting down the box into the car?",
+        "context": {
+            "context_1": "The courier is giving packages to the receiver.",
+            "context_2": "The courier is gathering packages from the sender."
+        },
+        "answer": {
+            "answer_1": "Putting down.",
+            "answer_2": "Picking up."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "154",
+        "image_id": "9fc3d7152b.jpg",
+        "question": "Is the man on the left picking up or putting down the bucket?",
+        "context": {
+            "context_1": "We are putting all the goods on the shelves.",
+            "context_2": "We are getting two cans of paint out of storage."
+        },
+        "answer": {
+            "answer_1": "Picking up.",
+            "answer_2": "Putting down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "155",
+        "image_id": "02522a2b27.jpg",
+        "question": "Is my left hand pushing or pulling?",
+        "context": {
+            "context_1": "I am getting all my things out of the drawer.",
+            "context_2": "I am putting my notebook in the empty drawer."
+        },
+        "answer": {
+            "answer_1": "Pulling.",
+            "answer_2": "Pushing."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "156",
+        "image_id": "02522a2b27.jpg",
+        "question": "Is the drawer opening or closing?",
+        "context": {
+            "context_1": "I am getting all my things out of the drawer.",
+            "context_2": "I am putting my notebook in the empty drawer."
+        },
+        "answer": {
+            "answer_1": "Opening.",
+            "answer_2": "Closing."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "157",
+        "image_id": "7f1de29e6d.jpg",
+        "question": "From the perspective of the photographer, is his left hand moving to the left or to the right?",
+        "context": {
+            "context_1": "He is about to pour the coffee beans in the bag into the iron box.",
+            "context_2": "He has just taken some coffee beans from the iron box."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "158",
+        "image_id": "7f1de29e6d.jpg",
+        "question": "From the perspective of the photographer, is his left hand moving to the left or to the right?",
+        "context": {
+            "context_1": "He is opening the iron box.",
+            "context_2": "He is closing the iron box."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "159",
+        "image_id": "013d407166.jpg",
+        "question": "Are my hands moving left or right?",
+        "context": {
+            "context_1": "The cake needs to be baked again.",
+            "context_2": "The cake is finished."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "160",
+        "image_id": "013d407166.jpg",
+        "question": "Am I putting the plate into the oven or taking it out of the oven?",
+        "context": {
+            "context_1": "My hands are moving left.",
+            "context_2": "My hands are moving right."
+        },
+        "answer": {
+            "answer_1": "Putting the plate into the oven.",
+            "answer_2": "Taking the plate out of the oven."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "161",
+        "image_id": "1c9ac0159c.jpg",
+        "question": "Is the train going left or right?",
+        "context": {
+            "context_1": "The woman in the orange coat is looking at the train tail.",
+            "context_2": "The woman in the orange coat is looking at the locomotive."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "162",
+        "image_id": "6c4b761a28.jpg",
+        "question": "What were they doing? Greeting or saying goodbye to each other?",
+        "context": {
+            "context_1": "He was separated from his five-year-old daughter and met again when she was an adult.",
+            "context_2": "He was separated from his newborn daughter and met again when she was five years old."
+        },
+        "answer": {
+            "answer_1": "Saying goodbye.",
+            "answer_2": "Greeting."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "163",
+        "image_id": "82aa4b0af3.jpg",
+        "question": "My boyfriend's orientation in the picture? East, west, south or north?",
+        "context": {
+            "context_1": "I took a picture of my boyfriend at sunrise.",
+            "context_2": "I took a picture of my boyfriend at sunset."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "164",
+        "image_id": "0777d5c17d.jpg",
+        "question": "Where is my girlfriend's face facing in the picture? East, west, south or north?",
+        "context": {
+            "context_1": "I took a picture of my girlfriend in the morning light.",
+            "context_2": "l took a picture of my girlfriend at sunset."
+        },
+        "answer": {
+            "answer_1": "South.",
+            "answer_2": "North."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "165",
+        "image_id": "9766527f2b.jpg",
+        "question": "In which direction was the airplane flying? East, west, south or north?",
+        "context": {
+            "context_1": "The plane has just took off in the morning and entered the flight path.",
+            "context_2": "The plane has just took off in the afternoon and was on course."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "166",
+        "image_id": "7e7757b1e1.jpg",
+        "question": "Which direction am I facing? East, west, south or north?",
+        "context": {
+            "context_1": "I took a picture in the early morning.",
+            "context_2": "I took a picture in the late afternoon ."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "167",
+        "image_id": "006f52e910.jpg",
+        "question": "Which direction was she walking towards? East, west, south or north?",
+        "context": {
+            "context_1": "I took a picture of my girlfriend at sunrise.",
+            "context_2": "I took a picture of my girlfriend at sunset."
+        },
+        "answer": {
+            "answer_1": "North.",
+            "answer_2": "South."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "168",
+        "image_id": "3636638817.jpg",
+        "question": "Was the car facing east, west, south or north?",
+        "context": {
+            "context_1": "I took a picture at morning peak.",
+            "context_2": "I took a picture at evening peak."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "169",
+        "image_id": "149e9677a5.jpg",
+        "question": "Which direction was the photographer facing? East, west, south or north?",
+        "context": {
+            "context_1": "I went out with my friend in the early morning.",
+            "context_2": "I went out with my friends in the late afternoon."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "170",
+        "image_id": "a4a042cf4f.jpg",
+        "question": "Is he going up or down the stairs at this point?",
+        "context": {
+            "context_1": "He is walking against the sun.",
+            "context_2": "He is walking with his back to the sun."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "171",
+        "image_id": "1ff8a7b5dc.jpg",
+        "question": "Is the volleyball moving up or down?",
+        "context": {
+            "context_1": "The player just hit the ball.",
+            "context_2": "The player is ready to hit the ball."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "172",
+        "image_id": "f7e6c85504.jpg",
+        "question": "Is the volleyball moving up or down?",
+        "context": {
+            "context_1": "The player just hit the ball.",
+            "context_2": "The player is ready to hit the ball."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "173",
+        "image_id": "bf8229696f.jpg",
+        "question": "Is this ball heading left or right?",
+        "context": {
+            "context_1": "The player has just finished swinging his racket.",
+            "context_2": "The player is ready to swing his bat."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "174",
+        "image_id": "8216124282.jpg",
+        "question": "Is this ball heading left or right?",
+        "context": {
+            "context_1": "The player has just finished swinging his racket.",
+            "context_2": "The player is ready to swing his bat."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "175",
+        "image_id": "38af86134b.jpg",
+        "question": "Is the volleyball moving left or right?",
+        "context": {
+            "context_1": "The player in white has hit the ball.",
+            "context_2": "The player in white is going to hit the ball."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "176",
+        "image_id": "8f85517967.jpg",
+        "question": "Did the man move left or right?",
+        "context": {
+            "context_1": "He was moving forward.",
+            "context_2": "He was moving backward."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "177",
+        "image_id": "cedebb6e87.jpg",
+        "question": "Is the picture more likely to be taken in the northern or southern hemisphere?",
+        "context": {
+            "context_1": "This is a picture I took in April.",
+            "context_2": "This is a picture I took in September."
+        },
+        "answer": {
+            "answer_1": "The northern hemisphere.",
+            "answer_2": "The southern hemisphere."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "178",
+        "image_id": "6cdd60ea00.jpg",
+        "question": "Is she more likely to live in the northern or southern hemisphere?",
+        "context": {
+            "context_1": "This photo was taken by my sister in May.",
+            "context_2": "This photo was taken by my sister in November."
+        },
+        "answer": {
+            "answer_1": "Southern hemisphere country.",
+            "answer_2": "Northern hemisphere country."
+        },
+        "category": "Temporal Information"
+    },
+    {
+        "id": "179",
+        "image_id": "3c59dc048e.jpg",
+        "question": "Should I go to the other side?",
+        "context": {
+            "context_1": "I'm driving in Britain, and I am at the car wash. I am going to clean the steering wheel next.",
+            "context_2": "I'm driving in France, and I am at the car wash. I am going to clean the steering wheel next."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "180",
+        "image_id": "f4b9ec30ad.jpg",
+        "question": "Is the behavior strictly restricted?",
+        "context": {
+            "context_1": "This is a picture taken in America.",
+            "context_2": "This is a picture taken in Singapore."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "181",
+        "image_id": "812b4ba287.jpg",
+        "question": "Is my brother's behavior legal?",
+        "context": {
+            "context_1": "My brother in the UK is celebrating his twentieth birthday here.",
+            "context_2": "My brother in America is celebrating his twentieth birthday here."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "182",
+        "image_id": "26657d5ff9.jpg",
+        "question": "Is my brother's behavior legal?",
+        "context": {
+            "context_1": "When I met my brother who is 20 years old in the UK, he was sitting on the stages before his house.",
+            "context_2": "When I met my brother who is 20 years old in the US, he was sitting on the stages before his house."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "183",
+        "image_id": "e2ef524fbf.jpg",
+        "question": "Is the scene unusual?",
+        "context": {
+            "context_1": "I am traveling in rural areas in China, and witnessed the scene.",
+            "context_2": "I am traveling in rural areas in America, and witnessed the scene."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "184",
+        "image_id": "ed3d2c2199.jpg",
+        "question": "Is my sister's behavior legal?",
+        "context": {
+            "context_1": "I am visiting my sister in Beijing and celebrating her 20th birthday. She is in white in the picture.",
+            "context_2": "I am visiting my sister in New York and celebrating her 20th birthday. She is in white in the picture."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "185",
+        "image_id": "ac627ab1cc.jpg",
+        "question": "Is my sister's behavior legal?",
+        "context": {
+            "context_1": "My sister and I were traveling in Venice and I took a picture of her.",
+            "context_2": "My sister and I were traveling in Shanghai and I took a picture of her."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "186",
+        "image_id": "f899139df5.jpg",
+        "question": "Is the car in the right lane?",
+        "context": {
+            "context_1": "This is a picture I took when I was traveling in the UK.",
+            "context_2": "This is a picture I took when I was traveling in France."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "187",
+        "image_id": "38b3eff8ba.jpg",
+        "question": "Am I driving in the correct lane?",
+        "context": {
+            "context_1": "I am currently in my car, driving in France.",
+            "context_2": "I am currently in my car, driving in the United Kingdom."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "188",
+        "image_id": "ec8956637a.jpg",
+        "question": "Can I make a right turn now?",
+        "context": {
+            "context_1": "I am driving in Shanghai.",
+            "context_2": "I am driving in New York."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "189",
+        "image_id": "c9e1074f5b.jpg",
+        "question": "Is my gesture provocative?",
+        "context": {
+            "context_1": "I am in Iran.",
+            "context_2": "I am in America."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "190",
+        "image_id": "65b9eea6e1.jpg",
+        "question": "Is his gesture appropriate?",
+        "context": {
+            "context_1": "My friend accepted his American colleague's invitation.",
+            "context_2": "My friend accepted his Brazilian colleague's invitation."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "191",
+        "image_id": "f0935e4cd5.jpg",
+        "question": "Is my gesture appropriate?",
+        "context": {
+            "context_1": "I am ordering five bottles of beer in Athens.",
+            "context_2": "I am ordering five bottles of beer in New York."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "192",
+        "image_id": "a97da629b0.jpg",
+        "question": "Is it appropriate for him to make this gesture?",
+        "context": {
+            "context_1": "My friend is attending a music festival in America. He thinks the music is so cool.",
+            "context_2": "My friend is attending a music festival in Spain. He thinks the music is so cool."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "193",
+        "image_id": "a3c65c2974.jpg",
+        "question": "Is my gesture appropriate?",
+        "context": {
+            "context_1": "I am buying eight bottles of water in China.",
+            "context_2": "I am buying eight bottles of water in America."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "194",
+        "image_id": "2723d092b6.jpg",
+        "question": "Is my gesture appropriate?",
+        "context": {
+            "context_1": "I am in Vietnam.",
+            "context_2": "I am in America."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "195",
+        "image_id": "5f93f98352.jpg",
+        "question": "What is his answer likely to be?",
+        "context": {
+            "context_1": "I asked my Chinese friend how many times he has been here.",
+            "context_2": "I asked my German friend how many times he has been here."
+        },
+        "answer": {
+            "answer_1": "Eight.",
+            "answer_2": "Two."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "196",
+        "image_id": "698d51a19d.jpg",
+        "question": "What is his answer likely to be?",
+        "context": {
+            "context_1": "I asked my Japanese friend how many times he has been here.",
+            "context_2": "I asked my German friend how many times he has been here."
+        },
+        "answer": {
+            "answer_1": "Five.",
+            "answer_2": "One."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "197",
+        "image_id": "7f6ffaa6bb.jpg",
+        "question": "Are most of my stocks going up or down?",
+        "context": {
+            "context_1": "These are stocks that I am following in the Chinese stock market.",
+            "context_2": "These are stocks that I am following in the America stock market."
+        },
+        "answer": {
+            "answer_1": "Down.",
+            "answer_2": "Up."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "198",
+        "image_id": "73278a4a86.jpg",
+        "question": "Is my academic performance good?",
+        "context": {
+            "context_1": "I received my transcript of my studies in Los Angeles.",
+            "context_2": "I received my transcript of my studies in Munich."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "199",
+        "image_id": "73278a4a86.jpg",
+        "question": "Which course did I perform better in? The first or fifth course in the table?",
+        "context": {
+            "context_1": "I received my transcript of my studies in Los Angeles.",
+            "context_2": "I received my transcript of my studies in Munich."
+        },
+        "answer": {
+            "answer_1": "The fifth course.",
+            "answer_2": "The first course."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "200",
+        "image_id": "5fd0b37cd7.jpg",
+        "question": "Did I do well in the quiz?",
+        "context": {
+            "context_1": "I am studying in China, and I just received my quiz paper.",
+            "context_2": "I am studying in Japan, and I just received my quiz paper."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "201",
+        "image_id": "5fd0b37cd7.jpg",
+        "question": "Is the correct answer to the first question A?",
+        "context": {
+            "context_1": "I am studying in China, and I just received my quiz paper.",
+            "context_2": "I am studying in Japan, and I just received my quiz paper."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "202",
+        "image_id": "2b44928ae1.jpg",
+        "question": "Is the calculation result in the picture likely to be considered as an unlucky number?",
+        "context": {
+            "context_1": "I live in China.",
+            "context_2": "I live in America."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "203",
+        "image_id": "c45147dee7.jpg",
+        "question": "Is the atmosphere of the event in the picture festive or solemn?",
+        "context": {
+            "context_1": "This picture was taken in China.",
+            "context_2": "This picture was taken in Korea."
+        },
+        "answer": {
+            "answer_1": "Solemn.",
+            "answer_2": "Festive."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "204",
+        "image_id": "eb160de1de.jpg",
+        "question": "Is his behavior polite?",
+        "context": {
+            "context_1": "I am in Japan. The sound made by that man is very loud.",
+            "context_2": "I am in America. The sound made by that man is very loud."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "205",
+        "image_id": "9872ed9fc2.jpg",
+        "question": "Is the scene in the photo in accordance with local laws?",
+        "context": {
+            "context_1": "I took this photo in Singapore.",
+            "context_2": "I took this photo in Saudi Arabia."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "206",
+        "image_id": "31fefc0e57.jpg",
+        "question": "Is this scene unusual?",
+        "context": {
+            "context_1": "I saw this scene while visiting my brother in my China.",
+            "context_2": "I saw this scene while visiting my brother in my United States."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "207",
+        "image_id": "9dcb88e013.jpg",
+        "question": "Is his behavior legal?",
+        "context": {
+            "context_1": "This photo of my 19-year-old brother was taken when I was visiting his house in the UK.",
+            "context_2": "This photo of my 19-year-old brother was taken when I was visiting his house in the US."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "208",
+        "image_id": "a2557a7b2e.jpg",
+        "question": "Is her behavior legal?",
+        "context": {
+            "context_1": "I found my twenty-year-old sister in America and she seemed to be upset about something.",
+            "context_2": "I found my twenty-year-old sister in the UK and she seemed to be upset about something."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "209",
+        "image_id": "cfecdb276f.jpg",
+        "question": "Is the behavior in the picture permissible?",
+        "context": {
+            "context_1": "I took this photo in Saudi Arabia in 2016.",
+            "context_2": "I took this photo in Saudi Arabia in 2020."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "210",
+        "image_id": "0aa1883c64.jpg",
+        "question": "Can I make a right turn now?",
+        "context": {
+            "context_1": "I am driving in China.",
+            "context_2": "I am driving in Australia."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "211",
+        "image_id": "bd686fd640.jpg",
+        "question": "Is the behavior of my son legal?",
+        "context": {
+            "context_1": "I took my 10-year-old son to Beijing for a trip, and I took a picture of him.",
+            "context_2": "I took my 10-year-old son to New York for a trip, and I took a picture of him."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "212",
+        "image_id": "a597e50502.jpg",
+        "question": "Is my gesture appropriate?",
+        "context": {
+            "context_1": "I want to buy two bottles of milk in Greece.",
+            "context_2": "I want to buy two bottles of milk in China."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "213",
+        "image_id": "0336dcbab0.jpg",
+        "question": "Is it appropriate for him to make this gesture?",
+        "context": {
+            "context_1": "My friend is a rock star. He is giving a concert in America.",
+            "context_2": "My friend is a rock star. He is giving a concert in Brazil."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "214",
+        "image_id": "084b6fbb10.jpg",
+        "question": "Is it appropriate for me to make this gesture?",
+        "context": {
+            "context_1": "I make this gesture to my Vietnamese friends.",
+            "context_2": "I make this gesture to my American friends."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "215",
+        "image_id": "85d8ce590a.jpg",
+        "question": "Is my gesture rude?",
+        "context": {
+            "context_1": "I want to buy three bottles to drink in America.",
+            "context_2": "I want to buy three bottles to drink in Brazil."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "216",
+        "image_id": "0e65972dce.jpg",
+        "question": "Is my gesture appropriate?",
+        "context": {
+            "context_1": "I'm saying hello to my American classmates.",
+            "context_2": "I'm saying hello to my Greek classmates."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "217",
+        "image_id": "84d9ee44e4.jpg",
+        "question": "Is my gesture invasive?",
+        "context": {
+            "context_1": "I'm in Iraq.",
+            "context_2": "I'm in America."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "218",
+        "image_id": "3644a684f9.jpg",
+        "question": "Is my gesture appropriate?",
+        "context": {
+            "context_1": "I appreciate my Chinese employees for their good job.",
+            "context_2": "I appreciate my Saudi Arabian employees for their good job."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "219",
+        "image_id": "757b505cfd.jpg",
+        "question": "Would this door number probably make me feel uncomfortable?",
+        "context": {
+            "context_1": "I am a tourist from China.",
+            "context_2": "I'm a tourist from the United States."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "220",
+        "image_id": "854d6fae5e.jpg",
+        "question": "Is my behavior appropriate?",
+        "context": {
+            "context_1": "I'm visiting a friend in London.",
+            "context_2": "I'm visiting a friend in Seoul."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "221",
+        "image_id": "e2c0be2456.jpg",
+        "question": "Will my behavior offend them?",
+        "context": {
+            "context_1": "I am teaching two Indonesian students.",
+            "context_2": "I am teaching two Chinese students."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "222",
+        "image_id": "e2c0be2456.jpg",
+        "question": "Is my behavior appropriate?",
+        "context": {
+            "context_1": "I want to express praise to my American students.",
+            "context_2": "I want to express praise to my Indonesian students."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "223",
+        "image_id": "274ad4786c.jpg",
+        "question": "Does this behavior annoy people?",
+        "context": {
+            "context_1": "I was at a noodle shop in Japan and the person next to me was making a lot of noise.",
+            "context_2": "I was at a noodle shop in China and the person next to me was making a lot of noise."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "224",
+        "image_id": "eae27d77ca.jpg",
+        "question": "Is this scenario common?",
+        "context": {
+            "context_1": "I'm in China and the sun is very strong today.",
+            "context_2": "I'm in America and the sun is very strong today."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "225",
+        "image_id": "7eabe3a164.jpg",
+        "question": "Is my behavior appropriate?",
+        "context": {
+            "context_1": "I was about to visit my Chinese teacher with this bouquet.",
+            "context_2": "I was about to visit my Japanese teacher with this bouquet."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Cultural Background"
+    },
+    {
+        "id": "226",
+        "image_id": "14bfa6bb14.jpg",
+        "question": "What time is it now?",
+        "context": {
+            "context_1": "One of the clocks goes faster than normal.",
+            "context_2": "One of the clocks goes slower than normal."
+        },
+        "answer": {
+            "answer_1": "6:09 (answers from 6:07 to 6:10 are all right).",
+            "answer_2": "6:25 (answers from 6:24 to 6:26 are all right)."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "227",
+        "image_id": "14bfa6bb14.jpg",
+        "question": "What time is it now?",
+        "context": {
+            "context_1": "The clock on the left does not run. The clock on the right runs normally.",
+            "context_2": "The clock on the right does not run. The clock on the left runs normally."
+        },
+        "answer": {
+            "answer_1": "6:25 (answers from 6:24 to 6:26 are all right).",
+            "answer_2": "6:09 (answers from 6:07 to 6:10 are all right)."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "228",
+        "image_id": "14bfa6bb14.jpg",
+        "question": "Which clock has a problem with its time? The left one or the right one?",
+        "context": {
+            "context_1": "It is 6:09 now.",
+            "context_2": "It is 6:25 now."
+        },
+        "answer": {
+            "answer_1": "The right one.",
+            "answer_2": "The left one."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "229",
+        "image_id": "7cbbc409ec.jpg",
+        "question": "What time is it now?",
+        "context": {
+            "context_1": "My new clock is special. The hands of it go counterclockwise.",
+            "context_2": "The order of my clock's numbers is wrong. But I manage to use it."
+        },
+        "answer": {
+            "answer_1": "5:51 (answers from 5:50 to 5:52 are all right).",
+            "answer_2": "6:09 (answers from 6:08 to 6:10 are all right)."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "230",
+        "image_id": "e2c420d928.jpg",
+        "question": "Will the person be in great danger?",
+        "context": {
+            "context_1": "The power is on.",
+            "context_2": "The power is off."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "231",
+        "image_id": "32bb90e897.jpg",
+        "question": "Is the scene dangerous?",
+        "context": {
+            "context_1": "The speed of the car is 60 km/h.",
+            "context_2": "The car does not start."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "232",
+        "image_id": "d2ddea18f0.jpg",
+        "question": "Can I eat the box of meat?",
+        "context": {
+            "context_1": "It is May 6th today.",
+            "context_2": "It is May 9th today."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "233",
+        "image_id": "d2ddea18f0.jpg",
+        "question": "Do I need to take this box of meat off the shelf?",
+        "context": {
+            "context_1": "I am a clerk in the shop. It is May 5th today.",
+            "context_2": "I am a clerk in the shop. It is May 9th today."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "234",
+        "image_id": "ad61ab1432.jpg",
+        "question": "Is the dog's behavior dangerous?",
+        "context": {
+            "context_1": "The car is moving on the road.",
+            "context_2": "The car is parked on the roadside."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "235",
+        "image_id": "ad61ab1432.jpg",
+        "question": "Would the dog probably get injured?",
+        "context": {
+            "context_1": "The car window is closing.",
+            "context_2": "The car window is opening."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "236",
+        "image_id": "d09bf41544.jpg",
+        "question": "Is the person in danger?",
+        "context": {
+            "context_1": "The cup is filled with hot water.",
+            "context_2": "The cup is filled with cold water."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "237",
+        "image_id": "fbd7939d67.jpg",
+        "question": "Is this thermometer in Fahrenheit or Centigrade?",
+        "context": {
+            "context_1": "It's cold in winter. People in the street are wearing down jackets.",
+            "context_2": "It's warm in spring. People in the street are wearing thin clothes."
+        },
+        "answer": {
+            "answer_1": "Fahrenheit.",
+            "answer_2": "Centigrade."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "238",
+        "image_id": "fbd7939d67.jpg",
+        "question": "Is this thermometer in Fahrenheit or Centigrade?",
+        "context": {
+            "context_1": "The water in the pond outside has frozen.",
+            "context_2": "The ice in the pond outside has melted."
+        },
+        "answer": {
+            "answer_1": "Fahrenheit.",
+            "answer_2": "Centigrade."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "239",
+        "image_id": "fbd7939d67.jpg",
+        "question": "Will water freeze at this temperature?",
+        "context": {
+            "context_1": "The thermometer is in Fahrenheit.",
+            "context_2": "The thermometer is in Centigrade."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "240",
+        "image_id": "68d30a9594.jpg",
+        "question": "What does the sign say?",
+        "context": {
+            "context_1": "I am at the entrance of the building.",
+            "context_2": "I am at the exit of the building."
+        },
+        "answer": {
+            "answer_1": "\"DO NOT EXIT, ENTER ONLY\".",
+            "answer_2": "\"DO NOT ENTER, EXIT ONLY\"."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "241",
+        "image_id": "68d30a9594.jpg",
+        "question": "What does the sign say?",
+        "context": {
+            "context_1": "The guard noticed me that I could not enter the building through this door.",
+            "context_2": "The guard noticed me that I could not exit the building through this door."
+        },
+        "answer": {
+            "answer_1": "\"DO NOT ENTER, EXIT ONLY\".",
+            "answer_2": "\"DO NOT EXIT, ENTER ONLY\"."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "242",
+        "image_id": "68d30a9594.jpg",
+        "question": "Can I exit the building through the door?",
+        "context": {
+            "context_1": "The guard noticed me that I could not enter the building through this door.",
+            "context_2": "The guard noticed me that I could enter the building through this door."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "243",
+        "image_id": "68d30a9594.jpg",
+        "question": "Can I enter the building through the door?",
+        "context": {
+            "context_1": "The guard noticed me that I could exit the building through this door.",
+            "context_2": "The guard noticed me that I could not exit the building through this door."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "244",
+        "image_id": "3ef815416f.jpg",
+        "question": "Should the driver be fined?",
+        "context": {
+            "context_1": "The driver has been waiting for his friend for a few minutes.",
+            "context_2": "The driver parked his car here for a day."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "245",
+        "image_id": "93db85ed90.jpg",
+        "question": "Can I make a left turn when the traffic light is green?",
+        "context": {
+            "context_1": "I have a meeting at 9:00 a.m. and I am about to late.",
+            "context_2": "I have a meeting at 9:00 a.m. and I am already late."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "246",
+        "image_id": "93db85ed90.jpg",
+        "question": "Can I make a left turn when the traffic light is green?",
+        "context": {
+            "context_1": "It's 7:30 a.m. and the road is congested. I am on my way to work.",
+            "context_2": "It's 5:30 p.m. And the road is congested. I am on my way home."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "247",
+        "image_id": "c7e1249ffc.jpg",
+        "question": "Can I make a left turn when the traffic light is green?",
+        "context": {
+            "context_1": "I am a bus driver, and I am currently working.",
+            "context_2": "I am driving a small sedan, taking a family out for a trip."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "248",
+        "image_id": "2a38a4a931.jpg",
+        "question": "Did I violate traffic laws?",
+        "context": {
+            "context_1": "I saw this sign when I was driving at 40km/h.",
+            "context_2": "I saw this sign when I was driving at 25km/h."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "249",
+        "image_id": "6974ce5ac6.jpg",
+        "question": "Does the driver violate the rules?",
+        "context": {
+            "context_1": "I am sitting in the passenger seat, and the navigation indicates a current speed limit of 120 km/h on this road segment.",
+            "context_2": "I am sitting in the passenger seat, and the navigation indicates a current speed limit of 100 km/h on this road segment."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "250",
+        "image_id": "7f6ffaa6bb.jpg",
+        "question": "Which color indicates an increase in stocks?",
+        "context": {
+            "context_1": "Most of my stock holdings are in good condition.",
+            "context_2": "Most of my stock holdings are in bad condition."
+        },
+        "answer": {
+            "answer_1": "Green.",
+            "answer_2": "Red."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "251",
+        "image_id": "7f6ffaa6bb.jpg",
+        "question": "Are my stock holdings in good condition?",
+        "context": {
+            "context_1": "My stock holdings are on the screen. Red indicates an increase in stocks, green indicates a decrease in stocks.",
+            "context_2": "My stock holdings are on the screen. Green indicates an increase in stocks, red indicates a decrease in stocks."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "252",
+        "image_id": "5ef059938b.jpg",
+        "question": "Am I observing from left or right?",
+        "context": {
+            "context_1": "This is a cube framework. The blue dot is at the front.",
+            "context_2": "This is a cube framework. The red dot is at the front."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "253",
+        "image_id": "5ef059938b.jpg",
+        "question": "Am I observing from above or below?",
+        "context": {
+            "context_1": "This is a cube framework. The blue dot is at the front.",
+            "context_2": "This is a cube framework. The red dot is at the front."
+        },
+        "answer": {
+            "answer_1": "Below.",
+            "answer_2": "Above."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "254",
+        "image_id": "07e1cd7dca.jpg",
+        "question": "Is the person facing diagonally forward or diagonally backward?",
+        "context": {
+            "context_1": "The person in the picture is standing on a higher floor comparing to me.",
+            "context_2": "The person in the picture is standing on a lower floor comparing to me."
+        },
+        "answer": {
+            "answer_1": "Diagonally forward.",
+            "answer_2": "Diagonally backward."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "255",
+        "image_id": "07e1cd7dca.jpg",
+        "question": "Is the person on a higher or lower floor comparing to me?",
+        "context": {
+            "context_1": "The person is facing diagonally forward.",
+            "context_2": "The person is facing diagonally backward."
+        },
+        "answer": {
+            "answer_1": "On a higher floor.",
+            "answer_2": "On a lower floor."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "256",
+        "image_id": "da4fb5c6e9.jpg",
+        "question": "Which plane is at the front? The one with a yellow dot or the one with a red dot?",
+        "context": {
+            "context_1": "The black sides are facing up.",
+            "context_2": "The black sides are facing down."
+        },
+        "answer": {
+            "answer_1": "The one with a yellow dot.",
+            "answer_2": "The one with a red dot."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "257",
+        "image_id": "da4fb5c6e9.jpg",
+        "question": "Which plane is at the front? The one with a yellow dot or the one with a red dot?",
+        "context": {
+            "context_1": "The white sides are facing right.",
+            "context_2": "The white sides are facing left."
+        },
+        "answer": {
+            "answer_1": "The one with a yellow dot.",
+            "answer_2": "The one with a red dot."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "258",
+        "image_id": "da4fb5c6e9.jpg",
+        "question": "Which direction are the black sides facing? Up, down, left or right?",
+        "context": {
+            "context_1": "The plane with a yellow dot is at the front.",
+            "context_2": "The plane with a red dot is at the front."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "259",
+        "image_id": "da4fb5c6e9.jpg",
+        "question": "Which direction are the white sides facing? Up, down, left or right?",
+        "context": {
+            "context_1": "The plane with a yellow dot is at the front.",
+            "context_2": "The plane with a red dot is at the front."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "260",
+        "image_id": "4c56ff4ce4.jpg",
+        "question": "What is the color of the background?",
+        "context": {
+            "context_1": "The picture shows faces of two people.",
+            "context_2": "The picture shows a vase."
+        },
+        "answer": {
+            "answer_1": "White.",
+            "answer_2": "Black."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "261",
+        "image_id": "a0a080f42e.jpg",
+        "question": "What is the animal in the picture?",
+        "context": {
+            "context_1": "Suppose the animal in the picture faces to the right.",
+            "context_2": "Suppose the animal in the picture faces to the left."
+        },
+        "answer": {
+            "answer_1": "A rabbit.",
+            "answer_2": "A duck."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "262",
+        "image_id": "a0a080f42e.jpg",
+        "question": "Is the animal facing left or right?",
+        "context": {
+            "context_1": "The animal in the picture is a duck.",
+            "context_2": "The animal in the picture is a rabbit."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "263",
+        "image_id": "202cb962ac.jpg",
+        "question": "How many cubes can we see in the picture?",
+        "context": {
+            "context_1": "Side A is part of the face of a cube while side B is not.",
+            "context_2": "Side B is part of the face of a cube while side A is not."
+        },
+        "answer": {
+            "answer_1": "Seven.",
+            "answer_2": "Six."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "264",
+        "image_id": "202cb962ac.jpg",
+        "question": "Is side A part of the face of a cube?",
+        "context": {
+            "context_1": "There are seven cubes in the picture.",
+            "context_2": "There are six cubes in the picture."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "265",
+        "image_id": "202cb962ac.jpg",
+        "question": "Is side B part of the face of a cube?",
+        "context": {
+            "context_1": "There are seven cubes in the picture.",
+            "context_2": "There are six cubes in the picture."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "266",
+        "image_id": "c8ffe9a587.jpg",
+        "question": "Is the person facing diagonally forward or diagonally backward?",
+        "context": {
+            "context_1": "We can see an ear in the picture.",
+            "context_2": "We can see no ears in the picture."
+        },
+        "answer": {
+            "answer_1": "Diagonally backward.",
+            "answer_2": "Diagonally forward."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "267",
+        "image_id": "c8ffe9a587.jpg",
+        "question": "Does the person look old or young?",
+        "context": {
+            "context_1": "We can see an ear in the picture.",
+            "context_2": "We can see no ears in the picture."
+        },
+        "answer": {
+            "answer_1": "Young.",
+            "answer_2": "Old."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "268",
+        "image_id": "c8ffe9a587.jpg",
+        "question": "Does the person look old or young?",
+        "context": {
+            "context_1": "The person is facing diagonally forward.",
+            "context_2": "The person is facing diagonally backward."
+        },
+        "answer": {
+            "answer_1": "Old.",
+            "answer_2": "Young."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "269",
+        "image_id": "c8ffe9a587.jpg",
+        "question": "Can we see her ear in the picture?",
+        "context": {
+            "context_1": "The person is facing diagonally forward.",
+            "context_2": "The person is facing diagonally backward."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "270",
+        "image_id": "3def184ad8.jpg",
+        "question": "What is the color of the person's face in the picture?",
+        "context": {
+            "context_1": "A man is playing the saxophone.",
+            "context_2": "There is a woman's face in the picture."
+        },
+        "answer": {
+            "answer_1": "Black.",
+            "answer_2": "White."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "271",
+        "image_id": "3def184ad8.jpg",
+        "question": "Do I see a front face or a side face?",
+        "context": {
+            "context_1": "I can see a person with a black face in the picture.",
+            "context_2": "I can see a person with a white face in the picture."
+        },
+        "answer": {
+            "answer_1": "A side face.",
+            "answer_2": "A front face."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "272",
+        "image_id": "3def184ad8.jpg",
+        "question": "Is the person a man or a woman?",
+        "context": {
+            "context_1": "I can see a person with a black face in the picture.",
+            "context_2": "I can see a person with a white face in the picture."
+        },
+        "answer": {
+            "answer_1": "A man.",
+            "answer_2": "A woman."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "273",
+        "image_id": "3def184ad8.jpg",
+        "question": "Is the person a man or a woman?",
+        "context": {
+            "context_1": "I see a side face in the picture.",
+            "context_2": "I see a front face in the picture."
+        },
+        "answer": {
+            "answer_1": "A man.",
+            "answer_2": "A woman."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "274",
+        "image_id": "ec5decca5e.jpg",
+        "question": "Is he opening or closing his bag?",
+        "context": {
+            "context_1": "My friend's left hand is moving up.",
+            "context_2": "My friend's left hand is moving down."
+        },
+        "answer": {
+            "answer_1": "Opening his bag.",
+            "answer_2": "Closing his bag."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "275",
+        "image_id": "8f53295a73.jpg",
+        "question": "Can I go straight?",
+        "context": {
+            "context_1": "I was driving in the right lane.",
+            "context_2": "I'm driving in the center lane."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "276",
+        "image_id": "8f53295a73.jpg",
+        "question": "Do I violate traffic regulations?",
+        "context": {
+            "context_1": "I'm going straight in the right lane of this street.",
+            "context_2": "I'm turning right in the right lane of the street."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "277",
+        "image_id": "045117b0e0.jpg",
+        "question": "Would I be penalized?",
+        "context": {
+            "context_1": "I went through the intersection at 50 kilometers an hour.",
+            "context_2": "I went through the intersection at 20 kilometers an hour."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "278",
+        "image_id": "fc22130974.jpg",
+        "question": "Will he get a fine?",
+        "context": {
+            "context_1": "He drove at 60 kph.",
+            "context_2": "He drove at 40 kph."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "279",
+        "image_id": "4c5bde74a8.jpg",
+        "question": "Am I traveling against traffic?",
+        "context": {
+            "context_1": "Here's a picture I took of the front windshield of the car.",
+            "context_2": "Here's a picture I took at the rear windshield of the car."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "280",
+        "image_id": "58a2fc6ed3.jpg",
+        "question": "Was the driver speeding?",
+        "context": {
+            "context_1": "I took this picture from the passenger seat when the road sign outside said the speed limit was 160 km/h.",
+            "context_2": "I took this picture from the passenger seat when the road sign outside said the speed limit was 200 km/h."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "281",
+        "image_id": "69adc1e107.jpg",
+        "question": "What is the color of the background?",
+        "context": {
+            "context_1": "The picture shows faces of two people.",
+            "context_2": "The picture shows a vase."
+        },
+        "answer": {
+            "answer_1": "White.",
+            "answer_2": "Black."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "282",
+        "image_id": "091d584fce.jpg",
+        "question": "Which dot is on the top surface? The red dot or the blue dot?",
+        "context": {
+            "context_1": "This is a frustum framework, and its bottom area is greater than the top area.",
+            "context_2": "This is a frustum framework, and its bottom area is smaller than the top area."
+        },
+        "answer": {
+            "answer_1": "The blue dot.",
+            "answer_2": "The red dot."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "283",
+        "image_id": "b1d10e7baf.jpg",
+        "question": "Does the person look old or young?",
+        "context": {
+            "context_1": "We can see a mouth in the picture.",
+            "context_2": "We can see no mouth in the picture."
+        },
+        "answer": {
+            "answer_1": "Old.",
+            "answer_2": "Young."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "284",
+        "image_id": "b1d10e7baf.jpg",
+        "question": "Does the person look old or young?",
+        "context": {
+            "context_1": "I can see a huge nose in the picture.",
+            "context_2": "I can see a delicate little nose in the picture."
+        },
+        "answer": {
+            "answer_1": "Old.",
+            "answer_2": "Young."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "285",
+        "image_id": "6f3ef77ac0.jpg",
+        "question": "Which plane is at the front? The one with a blue dot or the one with a red dot?",
+        "context": {
+            "context_1": "The side with a yellow dot is facing up.",
+            "context_2": "The side with a yellow dot is facing down."
+        },
+        "answer": {
+            "answer_1": "The one with a red dot.",
+            "answer_2": "The one with a blue dot."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "286",
+        "image_id": "6f3ef77ac0.jpg",
+        "question": "Which plane is at the front? The one with a blue dot or the one with a red dot?",
+        "context": {
+            "context_1": "The side with a green dot is facing right.",
+            "context_2": "The side with a green dot is facing left."
+        },
+        "answer": {
+            "answer_1": "The one with a red dot.",
+            "answer_2": "The one with a blue dot."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "287",
+        "image_id": "6f3ef77ac0.jpg",
+        "question": "Which direction is the side with a yellow dot facing? Up, down, left or right?",
+        "context": {
+            "context_1": "The plane with a red dot is at the front.",
+            "context_2": "The plane with a blue dot is at the front."
+        },
+        "answer": {
+            "answer_1": "Up.",
+            "answer_2": "Down."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "288",
+        "image_id": "6f3ef77ac0.jpg",
+        "question": "Which direction is the side with a green dot facing? Up, down, left or right?",
+        "context": {
+            "context_1": "The plane with a red dot is at the front.",
+            "context_2": "The plane with a blue dot is at the front."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "289",
+        "image_id": "eb16372791.jpg",
+        "question": "How many cubes can we see in the picture?",
+        "context": {
+            "context_1": "The side with a blue dot on it is part of the face of a cube while the side with a red dot is not.",
+            "context_2": "The side with a red dot on it is part of the face of a cube while the side with a blue dot is not."
+        },
+        "answer": {
+            "answer_1": "Seven.",
+            "answer_2": "Six."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "290",
+        "image_id": "eb16372791.jpg",
+        "question": "Is the side with a blue dot on it part of the face of a cube?",
+        "context": {
+            "context_1": "There are seven cubes in the picture.",
+            "context_2": "There are six cubes in the picture."
+        },
+        "answer": {
+            "answer_1": "Yes.",
+            "answer_2": "No."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "291",
+        "image_id": "eb16372791.jpg",
+        "question": "Is the side with a red dot on it part of the face of a cube?",
+        "context": {
+            "context_1": "There are seven cubes in the picture.",
+            "context_2": "There are six cubes in the picture."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "292",
+        "image_id": "1534b76d32.jpg",
+        "question": "Are side A and side B facing each other or facing away from each other?",
+        "context": {
+            "context_1": "In this three-dimensional figure, A and B are rectangles. I am observing the figure from above.",
+            "context_2": "In this three-dimensional figure, A and B are rectangles. I am observing the figure from below."
+        },
+        "answer": {
+            "answer_1": "Facing away from each other.",
+            "answer_2": "Facing each other"
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "293",
+        "image_id": "1534b76d32.jpg",
+        "question": "Am I observing the figure from above or from below?",
+        "context": {
+            "context_1": "In this three-dimensional figure, A and B are rectangles. Side A and side B face each other.",
+            "context_2": "In this three-dimensional figure, A and B are rectangles. Side A and side B face away from each other."
+        },
+        "answer": {
+            "answer_1": "From below.",
+            "answer_2": "From above."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "294",
+        "image_id": "979d472a84.jpg",
+        "question": "Am I observing the figure from above or from below?",
+        "context": {
+            "context_1": "In this three-dimensional figure, all of the sides are rectangles. Edge A is closer to me than edge B.",
+            "context_2": "In this three-dimensional figure, all of the sides are rectangles. Edge B is closer to me than edge A."
+        },
+        "answer": {
+            "answer_1": "From above.",
+            "answer_2": "From below."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "295",
+        "image_id": "979d472a84.jpg",
+        "question": "Is edge A or edge B closer to me?",
+        "context": {
+            "context_1": "In this three-dimensional figure, all of the sides are rectangles. I am observing the figure from above.",
+            "context_2": "In this three-dimensional figure, all of the sides are rectangles. I am observing the figure from below."
+        },
+        "answer": {
+            "answer_1": "Edge A.",
+            "answer_2": "Edge B."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "296",
+        "image_id": "ca46c1b951.jpg",
+        "question": "Is the terrain a crater or a hill?",
+        "context": {
+            "context_1": "The light comes from the left.",
+            "context_2": "The light comes from the right."
+        },
+        "answer": {
+            "answer_1": "A hill.",
+            "answer_2": "A crater."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "297",
+        "image_id": "ca46c1b951.jpg",
+        "question": "Does the light come from the left or from the right?",
+        "context": {
+            "context_1": "This is a crater.",
+            "context_2": "This is a hill."
+        },
+        "answer": {
+            "answer_1": "From the right.",
+            "answer_2": "From the left."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "298",
+        "image_id": "3b8a614226.jpg",
+        "question": "Is the terrain a crater or a hill?",
+        "context": {
+            "context_1": "The light comes from the left.",
+            "context_2": "The light comes from the right."
+        },
+        "answer": {
+            "answer_1": "A crater.",
+            "answer_2": "A hill."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "299",
+        "image_id": "3b8a614226.jpg",
+        "question": "Does the light come from the left or from the right?",
+        "context": {
+            "context_1": "This is a crater.",
+            "context_2": "This is a hill."
+        },
+        "answer": {
+            "answer_1": "From the left.",
+            "answer_2": "From the right."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "300",
+        "image_id": "45fbc6d3e0.jpg",
+        "question": "What is the orientation of the subject in the picture? Up, down, left or right?",
+        "context": {
+            "context_1": "I see a man in the picture.",
+            "context_2": "I see a horse in the picture."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Up."
+        },
+        "category": "Attributes"
+    },
+    {
+        "id": "301",
+        "image_id": "f457c545a9.jpg",
+        "question": "Who is my mom, the woman at the front or the back?",
+        "context": {
+            "context_1": "I went out with my parents and met a couple on the boat.",
+            "context_2": "I went out with my parents and met a couple sitting by the bank."
+        },
+        "answer": {
+            "answer_1": "Back.",
+            "answer_2": "Front."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "302",
+        "image_id": "f457c545a9.jpg",
+        "question": "Who is my mom, the woman at the front or the back?",
+        "context": {
+            "context_1": "I went boating with my parents.",
+            "context_2": "I went out with my parents. They were tired and sat by the bank."
+        },
+        "answer": {
+            "answer_1": "Front.",
+            "answer_2": "Back."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "303",
+        "image_id": "c0c7c76d30.jpg",
+        "question": "Was his daughter on the left or on the right in the perspective of the photographer?",
+        "context": {
+            "context_1": "He and his wife and daughter appeared on the stage.",
+            "context_2": "He and his daughter and granddaughter appeared on the stage."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "304",
+        "image_id": "c0c7c76d30.jpg",
+        "question": "Was his daughter wearing a long dress or a short dress?",
+        "context": {
+            "context_1": "He and his wife and daughter appeared on the stage.",
+            "context_2": "He and his daughter and granddaughter appeared on the stage."
+        },
+        "answer": {
+            "answer_1": "A short dress.",
+            "answer_2": "A long dress."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "305",
+        "image_id": "2838023a77.jpg",
+        "question": "Who is my daughter? The person on the left or on the right?",
+        "context": {
+            "context_1": "My daughter sent me the photo. She had fun with her aunt today.",
+            "context_2": "My daughter sent me the photo. She had fun with her niece today."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "306",
+        "image_id": "2838023a77.jpg",
+        "question": "Who is my daughter? The person on the left or on the right?",
+        "context": {
+            "context_1": "A coach taught my daughter skiing today.",
+            "context_2": "A student learnt skiing from my daughter today."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "307",
+        "image_id": "9a1158154d.jpg",
+        "question": "Is the principal standing on the left or on the right?",
+        "context": {
+            "context_1": "Our principal insisted on delivering his speech in the rain.",
+            "context_2": "Our principal cared for his students. He sheltered the student who was giving his speech from the rain."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "308",
+        "image_id": "d82c8d1619.jpg",
+        "question": "Who is my daughter? The person on the left or on the right?",
+        "context": {
+            "context_1": "After dinner, my daughter did the dishes and my granddaughter helped with kitchen organization.",
+            "context_2": "After dinner, my sister did the dishes and my daughter helped with kitchen organization."
+        },
+        "answer": {
+            "answer_1": "On the left.",
+            "answer_2": "On the right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "309",
+        "image_id": "d82c8d1619.jpg",
+        "question": "Who is my sister? The person on the left or on the right?",
+        "context": {
+            "context_1": "I am doing dishes and I asked my sister for help.",
+            "context_2": "I went to help my sister doing dishes."
+        },
+        "answer": {
+            "answer_1": "On the right.",
+            "answer_2": "On the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "310",
+        "image_id": "a684eceee7.jpg",
+        "question": "Who is my brother? The boy on the left or on the right?",
+        "context": {
+            "context_1": "My brother was teaching me how to throw frisbee and he was watching me practising from the side.",
+            "context_2": "My brother was teaching me how to throw frisbee and he was making a demonstration of the action."
+        },
+        "answer": {
+            "answer_1": "On the left.",
+            "answer_2": "On the right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "311",
+        "image_id": "a684eceee7.jpg",
+        "question": "Who is my brother? The boy on the left or on the right?",
+        "context": {
+            "context_1": "I was teaching my brother how to throw frisbee and I was watching him practising from the side.",
+            "context_2": "I was teaching my brother how to throw frisbee and I was making a demonstration of the action."
+        },
+        "answer": {
+            "answer_1": "On the right.",
+            "answer_2": "On the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "312",
+        "image_id": "b53b3a3d6a.jpg",
+        "question": "Is the person on the left the teacher?",
+        "context": {
+            "context_1": "The student is giving a report to the teacher.",
+            "context_2": "The teacher is giving a lesson to the students."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "313",
+        "image_id": "b53b3a3d6a.jpg",
+        "question": "Is the person on the left the teacher?",
+        "context": {
+            "context_1": "The teacher listens to the student's report carefully.",
+            "context_2": "The student listens to the teacher's speech carefully."
+        },
+        "answer": {
+            "answer_1": "No.",
+            "answer_2": "Yes."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "314",
+        "image_id": "9f61408e3a.jpg",
+        "question": "Who's my mom? The woman in the front or in the back?",
+        "context": {
+            "context_1": "My sister and I, in the living room with my parents, were watching TV.",
+            "context_2": "My mom and I were in the living room watching TV with my grandparents."
+        },
+        "answer": {
+            "answer_1": "In the back.",
+            "answer_2": "In the front."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "315",
+        "image_id": "9f61408e3a.jpg",
+        "question": "Who's my sister? The woman in the front or in the back?",
+        "context": {
+            "context_1": "I was playing in my sister's home. Her parents were also there.",
+            "context_2": "I was playing in my sister's home. Her husband and housekeeper were also there."
+        },
+        "answer": {
+            "answer_1": "In the front.",
+            "answer_2": "In the back."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "316",
+        "image_id": "72b32a1f75.jpg",
+        "question": "Is my friend on the left or on the right in the perspective of the photographer?",
+        "context": {
+            "context_1": "My daughter was sitting on my lap. My friend said she was cute.",
+            "context_2": "My friend said my daughter was cute. She let her sit on her lap and played with her."
+        },
+        "answer": {
+            "answer_1": "On the left.",
+            "answer_2": "On the right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "317",
+        "image_id": "72b32a1f75.jpg",
+        "question": "Is my friend on the left or on the right in the perspective of the photographer?",
+        "context": {
+            "context_1": "My left hand hurts and my friend helps take care of my daughter.",
+            "context_2": "My friend's left hand hurts and I help take care of her daughter."
+        },
+        "answer": {
+            "answer_1": "On the right.",
+            "answer_2": "On the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "318",
+        "image_id": "66f041e16a.jpg",
+        "question": "Who was holding the sword, the man on the left or the man on the right?",
+        "context": {
+            "context_1": "The hijacker was holding a sword, threatening the guard.",
+            "context_2": "The ceremonial soldier held his sword and stood straight, refusing to interact with the visitor."
+        },
+        "answer": {
+            "answer_1": "The man on the right.",
+            "answer_2": "The man on the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "319",
+        "image_id": "66f041e16a.jpg",
+        "question": "Who was holding the sword, the man on the left or the man on the right?",
+        "context": {
+            "context_1": "The guard was not threatened by the hijacker who was holding a sword.",
+            "context_2": "The visitor stared at the guard who was holding a sword."
+        },
+        "answer": {
+            "answer_1": "The man on the right.",
+            "answer_2": "The man on the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "320",
+        "image_id": "093f65e080.jpg",
+        "question": "Who is Lucy, the lady on the left or the lady on the right?",
+        "context": {
+            "context_1": "Lucy was throwing the frisbee to Allice.",
+            "context_2": "Lucy was catching the frisbee thrown by Alice."
+        },
+        "answer": {
+            "answer_1": "The lady on the left.",
+            "answer_2": "The lady on the right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "321",
+        "image_id": "072b030ba1.jpg",
+        "question": "Who is my sister, the lady on the left or the lady on the right?",
+        "context": {
+            "context_1": "I took my daughter to the kitchen to watch my sister preparing for our dinner.",
+            "context_2": "My sister helped me take care of my daughter when I was in the kitchen preparing for our dinner."
+        },
+        "answer": {
+            "answer_1": "The lady on the left.",
+            "answer_2": "The lady on the right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "322",
+        "image_id": "072b030ba1.jpg",
+        "question": "Who is my sister, the lady on the left or the lady on the right?",
+        "context": {
+            "context_1": "My sister took her daughter to watch me preparing for our dinner.",
+            "context_2": "I helped take care of my sister's daughter when she was in the kitchen preparing for our dinner."
+        },
+        "answer": {
+            "answer_1": "The lady on the right.",
+            "answer_2": "The lady on the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "323",
+        "image_id": "7f39f8317f.jpg",
+        "question": "Is my mother on the left or on the right?",
+        "context": {
+            "context_1": "My wife and my mother were walking on the beach.",
+            "context_2": "My mother and my grandmother were walking on the beach."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "324",
+        "image_id": "7f39f8317f.jpg",
+        "question": "Am I walking on the left or on the right?",
+        "context": {
+            "context_1": "I walked with my mother on the beach.",
+            "context_2": "I walked with my daughter on the beach."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "325",
+        "image_id": "44f683a841.jpg",
+        "question": "Who is my child, the one on the left or the one on the right?",
+        "context": {
+            "context_1": "My daughter went to the seaside with her dad.",
+            "context_2": "My son took my granddaughter to the seaside."
+        },
+        "answer": {
+            "answer_1": "The one on the left.",
+            "answer_2": "The one on the right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "326",
+        "image_id": "44f683a841.jpg",
+        "question": "Am I sitting to the east or west of my father?",
+        "context": {
+            "context_1": "I went to the seaside with my father yesterday morning.",
+            "context_2": "I went to the seaside with my father yesterday afternoon."
+        },
+        "answer": {
+            "answer_1": "West.",
+            "answer_2": "East."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "327",
+        "image_id": "44f683a841.jpg",
+        "question": "Am I sitting to the east or west of my daughter?",
+        "context": {
+            "context_1": "I went to the seaside with my daughter yesterday morning.",
+            "context_2": "I went to the seaside with my daughter yesterday afternoon."
+        },
+        "answer": {
+            "answer_1": "East.",
+            "answer_2": "West."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "328",
+        "image_id": "03afdbd66e.jpg",
+        "question": "Is my doctor sitting on my left or on my right?",
+        "context": {
+            "context_1": "I had received the prescription and my doctor was explaining medication precautions to me.",
+            "context_2": "I had given the medical examination report to my doctor and I was describing my symptoms to him."
+        },
+        "answer": {
+            "answer_1": "On my right.",
+            "answer_2": "On my left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "329",
+        "image_id": "03afdbd66e.jpg",
+        "question": "Is my leader sitting on my left or on my right?",
+        "context": {
+            "context_1": "I gave the file to my leader and was making a report to him.",
+            "context_2": "My leader gave me the file and was explaining to me about the task."
+        },
+        "answer": {
+            "answer_1": "On my left.",
+            "answer_2": "On my right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "330",
+        "image_id": "ea5d2f1c46.jpg",
+        "question": "Is the classmate bothering me a boy or a girl?",
+        "context": {
+            "context_1": "I am complaining about my classmate kicking my chair.",
+            "context_2": "I am complaining about my classmate leaning back on the chair and hitting my desk."
+        },
+        "answer": {
+            "answer_1": "A boy.",
+            "answer_2": "A girl."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "331",
+        "image_id": "ea5d2f1c46.jpg",
+        "question": "Who is saying sorry? The boy or the girl?",
+        "context": {
+            "context_1": "My classmate said sorry to me for kicking my chair.",
+            "context_2": "My classmate said sorry to me for leaning back on the chair and hitting my desk."
+        },
+        "answer": {
+            "answer_1": "The boy.",
+            "answer_2": "The girl."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "332",
+        "image_id": "28dd2c7955.jpg",
+        "question": "Who got the ball? The athlete on the left or right?",
+        "context": {
+            "context_1": "Nice stop! The red-clad crowd in the audience cheered.",
+            "context_2": "Nice stop! The white-clad crowd in the audience cheered."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "333",
+        "image_id": "d1fe173d08.jpg",
+        "question": "Which side performs better, the offense or the defense?",
+        "context": {
+            "context_1": "After a moment, cheers erupted from stands of red team's fans.",
+            "context_2": "After a moment, cheers erupted from stands of white team's fans."
+        },
+        "answer": {
+            "answer_1": "The defense.",
+            "answer_2": "The offense."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "334",
+        "image_id": "1afa34a7f9.jpg",
+        "question": "Which one in the picture is my friend, the person on the left or on the right?",
+        "context": {
+            "context_1": "My friend is helping me carry my goods into my car.",
+            "context_2": "I am helping my friend carry his goods into his car."
+        },
+        "answer": {
+            "answer_1": "The person on the right.",
+            "answer_2": "The person on the left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "335",
+        "image_id": "42a0e188f5.jpg",
+        "question": "Which one is my daughter, the one on the left or on the right?",
+        "context": {
+            "context_1": "I give my daughter and granddaughter Christmas gifts.",
+            "context_2": "I give my wife and daughter Christmas gifts."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "336",
+        "image_id": "3988c7f88e.jpg",
+        "question": "Which one is me, the one on the left or on the right?",
+        "context": {
+            "context_1": "My friend took an embarrassing picture of me drunk.",
+            "context_2": "I took an embarrassing picture of my friend drunk."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "337",
+        "image_id": "e00da03b68.jpg",
+        "question": "Which one is my client, the man or the woman?",
+        "context": {
+            "context_1": "I have given my client a shoulder bag filled with files.",
+            "context_2": "I am about to give my client a shoulder bag filled with files."
+        },
+        "answer": {
+            "answer_1": "The woman.",
+            "answer_2": "The man."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "338",
+        "image_id": "1385974ed5.jpg",
+        "question": "Which is my son, the one on the left or the one on the right?",
+        "context": {
+            "context_1": "My son is teaching my grandson how to build blocks.",
+            "context_2": "My brother is teaching my son how to build blocks."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "339",
+        "image_id": "0f28b5d49b.jpg",
+        "question": "Which boy is my brother, the boy on the left or on the right?",
+        "context": {
+            "context_1": "My brother is too noisy, which affects my reading.",
+            "context_2": "My brother is too quiet and he refuses to play building blocks with me."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "340",
+        "image_id": "a8baa56554.jpg",
+        "question": "Who is the owner of the horse, the one in the front or in the back?",
+        "context": {
+            "context_1": "I pulled my horse and prepared to let the guests ride it.",
+            "context_2": "I gave horse rope of my horse to the guest, and she was ready to ride it."
+        },
+        "answer": {
+            "answer_1": "In the front.",
+            "answer_2": "In the back."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "341",
+        "image_id": "903ce9225f.jpg",
+        "question": "Who is the owner of the dog, the person on the left or on the right?",
+        "context": {
+            "context_1": "My dog didn't look very happy when he met my girlfriend for the first time.",
+            "context_2": "My dog didn't look very happy when he met my boyfriend for the first time."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "342",
+        "image_id": "0a09c8844b.jpg",
+        "question": "Which one is my sister, the one on the left or on the right?",
+        "context": {
+            "context_1": "I took two rabbits from my sister's arms.",
+            "context_2": "My sister got three rabbits and gave me one."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "343",
+        "image_id": "2b24d49505.jpg",
+        "question": "Who is my friend, the one on the left or on the right?",
+        "context": {
+            "context_1": "My friend likes my dog and can't put it down.",
+            "context_2": "I introduced my dog to my friend at the party."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "344",
+        "image_id": "a5e0013237.jpg",
+        "question": "Which one is my cousin, the one on the left or the one on the right?",
+        "context": {
+            "context_1": "My cousin is playing with my cat whenever she comes to visit me.",
+            "context_2": "I am playing with my cat when my cousin comes to visit me."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "345",
+        "image_id": "8d5e957f29.jpg",
+        "question": "Is my cousin on my left side or on my right side from the perspective of photographer?",
+        "context": {
+            "context_1": "My aunt's dog scared me to jump on the couch.",
+            "context_2": "My dog scared my cousin to jump on the couch."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "346",
+        "image_id": "47d1e99058.jpg",
+        "question": "Is the document in the picture handed to the person on the left or the person on the right?",
+        "context": {
+            "context_1": "My colleague gave me the document I urgently needed in her office.",
+            "context_2": "My colleague gave me the document I urgently needed in his office."
+        },
+        "answer": {
+            "answer_1": "Left",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "347",
+        "image_id": "47d1e99058.jpg",
+        "question": "Is the document in the picture handed to the person on the left or the person on the right?",
+        "context": {
+            "context_1": "I took the document to my colleague's office and gave it to her.",
+            "context_2": "I took the document to my colleague's office and gave it to him."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "348",
+        "image_id": "f2217062e9.jpg",
+        "question": "Is my leader on the left or on the right from the perspective of the photographer?",
+        "context": {
+            "context_1": "I explained to my leader where the contract needed to be signed.",
+            "context_2": "My leader told me what needs to be corrected in the contract and I was recording."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "349",
+        "image_id": "7ef605fc8d.jpg",
+        "question": "Which child is my son, the one on the left or the one on the right?",
+        "context": {
+            "context_1": "My son is teaching his cousin how to walk.",
+            "context_2": "My son's cousin is teaching him how to walk."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "350",
+        "image_id": "a8f15eda80.jpg",
+        "question": "Is the man or the woman in the picture my leader?",
+        "context": {
+            "context_1": "I was presenting the proposal to my leader in detail using the whiteboard.",
+            "context_2": "My leader was explaining the proposal to me in detail using the whiteboard."
+        },
+        "answer": {
+            "answer_1": "The woman.",
+            "answer_2": "The man."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "351",
+        "image_id": "1d7f7abc18.jpg",
+        "question": "Which is my friend in the picture, the woman on the left or on the right?",
+        "context": {
+            "context_1": "My friend handed me a box of water.",
+            "context_2": "I handed my friend a box of water."
+        },
+        "answer": {
+            "answer_1": "Right.",
+            "answer_2": "Left."
+        },
+        "category": "Relationships"
+    },
+    {
+        "id": "352",
+        "image_id": "2a79ea27c2.jpg",
+        "question": "Which is my friend in the picture, the woman on the left or on the right?",
+        "context": {
+            "context_1": "I'm showing pictures of my birthday to my friend.",
+            "context_2": "My friend is showing pictures of her birthday to me."
+        },
+        "answer": {
+            "answer_1": "Left.",
+            "answer_2": "Right."
+        },
+        "category": "Relationships"
+    }
+]
